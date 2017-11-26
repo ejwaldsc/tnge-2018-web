@@ -1597,7 +1597,7 @@ legend {
     padding-bottom: 15px;
     font-family: "ChronicaPro-Book";
     font-size: 12px;
-    text-transform: uppercase;
+    text-transform: none;
     border-radius: 3px; }
     .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
       color: inherit;

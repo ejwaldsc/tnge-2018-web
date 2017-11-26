@@ -36,14 +36,14 @@ $border-radius-huge: 10px !default;
 $border-radius-extreme: 30px !default;
 
 // Typography
-$font-family-sans-serif: 'ChronicaPro-Thin', 'Helvetica', 'Arial', sans-serif !default;
+$font-family-sans-serif: 'ChronicaPro-Book', 'Helvetica', 'Arial', sans-serif !default;
 $headings-font-weight: normal !default;
 
-$font-weight-light: normal !default;
-$font-weight-default: normal !default;
-$font-weight-bold:    normal !default;
-$font-weight-extra-bold: normal !default;
-$font-weight-ultra-bold: normal !default;
+$font-weight-light: 'ChronicaPro-Light' !default;
+$font-weight-default: 'ChronicaPro-Book' !default;
+$font-weight-bold:    'ChronicaPro-Regular' !default;
+$font-weight-extra-bold: 'ChronicaPro-Medium' !default;
+$font-weight-ultra-bold: 'ChronicaPro-Bold' !default;
 
 $body-bg: #EEEEEE !default;
 //---

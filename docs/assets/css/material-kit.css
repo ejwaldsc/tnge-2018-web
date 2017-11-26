@@ -35,8 +35,7 @@ body {
   background: #FFFFFF; }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
-  font-family: "ChronicaPro-Thin", "Helvetica", "Arial", sans-serif;
-  font-weight: 300;
+  font-family: "ChronicaPro-Book", "Helvetica", "Arial", sans-serif;
   line-height: 1.5em; }
 
 a, a:hover, a:focus {
@@ -85,7 +84,7 @@ a, a:hover, a:focus {
   padding: 12px 30px;
   margin: 10px 1px;
   font-size: 12px;
-  font-weight: 400;
+  font-family: "ChronicaPro-Light";
   text-transform: uppercase;
   letter-spacing: 0;
   will-change: box-shadow, transform;
@@ -1231,13 +1230,13 @@ label {
   font-size: 14px;
   line-height: 1.428571429;
   color: #AAAAAA;
-  font-weight: 400; }
+  font-family: "ChronicaPro-Regular"; }
 
 label.control-label {
   font-size: 11px;
   line-height: 1.0714285718;
   color: #AAAAAA;
-  font-weight: 400;
+  font-family: "ChronicaPro-Regular";
   margin: 16px 0 0 0; }
 
 .help-block {
@@ -1270,12 +1269,12 @@ label.control-label {
     font-size: 14px;
     line-height: 1.428571429;
     color: #AAAAAA;
-    font-weight: 400; }
+    font-family: "ChronicaPro-Regular"; }
   .form-group label.control-label {
     font-size: 11px;
     line-height: 1.0714285718;
     color: #AAAAAA;
-    font-weight: 400;
+    font-family: "ChronicaPro-Regular";
     margin: 16px 0 0 0; }
   .form-group .help-block {
     margin-top: 0;
@@ -1321,12 +1320,12 @@ label.control-label {
     font-size: 11px;
     line-height: 1.5;
     color: #AAAAAA;
-    font-weight: 400; }
+    font-family: "ChronicaPro-Regular"; }
   .form-group.form-group-sm label.control-label {
     font-size: 9px;
     line-height: 1.125;
     color: #AAAAAA;
-    font-weight: 400;
+    font-family: "ChronicaPro-Regular";
     margin: 16px 0 0 0; }
   .form-group.form-group-sm .help-block {
     margin-top: 0;
@@ -1372,12 +1371,12 @@ label.control-label {
     font-size: 18px;
     line-height: 1.3333333;
     color: #AAAAAA;
-    font-weight: 400; }
+    font-family: "ChronicaPro-Regular"; }
   .form-group.form-group-lg label.control-label {
     font-size: 14px;
     line-height: 0.999999975;
     color: #AAAAAA;
-    font-weight: 400;
+    font-family: "ChronicaPro-Regular";
     margin: 16px 0 0 0; }
   .form-group.form-group-lg .help-block {
     margin-top: 0;
@@ -1453,7 +1452,7 @@ select.form-control {
   height: 30px;
   line-height: 30px;
   color: #999999;
-  font-weight: normal;
+  font-family: "ChronicaPro-Book";
   font-size: 12px;
   text-transform: uppercase;
   background: transparent; }
@@ -1513,7 +1512,7 @@ select.form-control {
   line-height: 24px;
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: normal;
+  font-family: "ChronicaPro-Regular";
   min-width: 100px;
   text-align: center;
   color: #555555;
@@ -1555,7 +1554,7 @@ footer {
       footer ul li a {
         color: inherit;
         padding: 15px;
-        font-weight: normal;
+        font-family: "ChronicaPro-Regular";
         font-size: 12px;
         text-transform: uppercase;
         border-radius: 3px;
@@ -1596,7 +1595,7 @@ legend {
     color: inherit;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-weight: normal;
+    font-family: "ChronicaPro-Book";
     font-size: 12px;
     text-transform: uppercase;
     border-radius: 3px; }
@@ -1957,7 +1956,7 @@ legend {
   padding: 20px 15px;
   line-height: 20px; }
   .alert b {
-    font-weight: normal;
+    font-family: "ChronicaPro-Regular";
     text-transform: uppercase;
     font-size: 12px; }
   .alert, .alert.alert-default {
@@ -2072,7 +2071,7 @@ h6, .h6 {
 .footer-big h5,
 .footer-big h4,
 .media .media-heading {
-  font-weight: normal; }
+  font-family: "ChronicaPro-Medium"; }
   .title,
   .title a,
   .card-title,
@@ -2133,7 +2132,7 @@ h2.title {
     background-color: transparent;
     border: 0 !important;
     color: #FFFFFF !important;
-    font-weight: normal; }
+    font-family: "ChronicaPro-Regular"; }
   .nav-tabs > li.disabled > a, .nav-tabs > li.disabled > a:hover {
     color: rgba(255, 255, 255, 0.5); }
   .nav-tabs > li .material-icons {
@@ -2645,7 +2644,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     text-align: center; }
     .datepicker td p {
       font-size: 1em;
-      font-weight: normal;
+      font-weight: "ChronicaPro-Book";
       border-radius: 50%;
       height: 29px;
       line-height: 29px;
@@ -2654,7 +2653,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     .datepicker td :hover {
       cursor: pointer; }
   .datepicker th {
-    font-weight: normal; }
+    font-weight: "ChronicaPro-Regular"; }
     .datepicker th.switch-datepicker {
       font-size: 1em; }
   .datepicker .prev p,
@@ -2815,7 +2814,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
 
 .title {
-  font-weight: normal;
+  font-family: "ChronicaPro-Regular";
   color: #3C4858; }
 
 h2.title {
@@ -2894,7 +2893,7 @@ h2.title {
   .landing-page .header .share {
     margin-top: 150px; }
   .landing-page .header h1 {
-    font-weight: 600; }
+    font-family: "ChronicaPro-Regular"; }
   .landing-page .header .title {
     color: #FFFFFF; }
 .landing-page .wrapper {

@@ -16,7 +16,7 @@
 }
 
 .title{
-    font-weight: $font-weight-bold;
+    font-family: $font-weight-bold;
     color: $black-color;
 }
 h2.title{
@@ -131,7 +131,7 @@ h2.title{
             margin-top: 150px;
         }
         h1{
-            font-weight: 600;
+            font-family: $font-weight-bold;
         }
         .title{
             color: $white-color;

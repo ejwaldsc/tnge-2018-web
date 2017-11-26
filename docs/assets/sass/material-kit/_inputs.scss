@@ -40,7 +40,7 @@
     font-size: $placeholder-font-size;
     line-height: $line-height;
     color: $mdb-input-placeholder-color;
-    font-weight: 400;
+    font-family: $font-weight-bold;
   }
 
   // smaller focused or static size
@@ -48,7 +48,7 @@
     font-size: $static-font-size;
     line-height: $static-line-height;
     color: $mdb-input-placeholder-color;
-    font-weight: 400;
+    font-family: $font-weight-bold;
     margin: 16px 0 0 0; // std and lg
   }
 

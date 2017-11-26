@@ -117,9 +117,9 @@
 
 .logo-container .logo{
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 0%;
     border: none;
-    width: 80px;
+    width: 50px;
     float: left;
 }
 

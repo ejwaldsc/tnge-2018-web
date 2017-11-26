@@ -1934,7 +1934,7 @@ legend {
     .info .icon > i {
       font-size: 4.4em; }
   .info .info-title {
-    color: #3C4858;
+    color: #161722;
     margin: 30px 0 15px; }
   .info p {
     color: #999999; }
@@ -2086,7 +2086,7 @@ h6, .h6 {
   .footer-big h4 a,
   .media .media-heading,
   .media .media-heading a {
-    color: #3C4858;
+    color: #161722;
     text-decoration: none; }
 
 h2.title {
@@ -2815,7 +2815,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .title {
   font-family: "ChronicaPro-Regular";
-  color: #3C4858; }
+  color: #161722; }
 
 h2.title {
   margin-bottom: 30px; }

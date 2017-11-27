@@ -312,6 +312,16 @@
     color: #333333;
 }
 
+.navbar.navbar-info.navbar-fixed-top.navbar-color-on-scroll{
+    border-bottom-color: #C3FF0D;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.navbar.navbar-info.navbar-fixed-top.navbar-color-on-scroll.navbar-transparent{
+    border-color: transparent;
+}
+
 .sharing-area{
     margin-top: 80px;
 }

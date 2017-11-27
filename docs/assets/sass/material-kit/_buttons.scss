@@ -50,6 +50,9 @@
     &.btn-info-dark{
       @include btn-styles($brand-info-dark);
     }
+    &.btn-info-darker{
+      @include btn-styles($brand-info-darker);
+    }
     &.btn-success{
       @include btn-styles($brand-success);
     }

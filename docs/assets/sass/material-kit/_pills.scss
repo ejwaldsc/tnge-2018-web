@@ -138,6 +138,19 @@
         }
     }
 
+    &.nav-pills-info-darker{
+        > li {
+            &.active > a{
+                &,
+                &:focus,
+                &:hover{
+                    background-color: $brand-info-darker;
+                    @include shadow-big-color($brand-info-darker);
+                }
+            }
+        }
+    }
+
     &.nav-pills-success{
         > li {
             &.active > a{

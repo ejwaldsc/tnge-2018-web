@@ -39,6 +39,22 @@ h6, .h6{
     }
 }
 
+.brand-light{
+    font-family: $font-weight-light;
+}
+.brand-book{
+    font-family: $font-weight-default;
+}
+.brand-regular{
+    font-family: $font-weight-bold;
+}
+.brand-medium{
+    font-family: $font-weight-extra-bold;
+}
+.brand-bold{
+    font-family: $font-weight-ultra-bold;
+}
+
 h2.title{
     margin-bottom: $margin-base * 2;
 }
@@ -90,4 +106,7 @@ h2.title{
 }
 .text-info-dark {
   color: $brand-info-dark;
+}
+.text-info-darker {
+  color: $brand-info-darker;
 }

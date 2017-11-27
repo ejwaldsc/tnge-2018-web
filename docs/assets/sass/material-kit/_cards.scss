@@ -75,11 +75,38 @@
     .header-primary{
         background: linear-gradient(60deg, $brand-primary, $brand-primary);
     }
+    .header-primarylight1{
+        background: linear-gradient(60deg, $brand-primarylight1, $brand-primarylight1);
+    }
+    .header-primarylight2{
+        background: linear-gradient(60deg, $brand-primarylight2, $brand-primarylight2);
+    }
+    .header-primarylight3{
+        background: linear-gradient(60deg, $brand-primarylight3, $brand-primarylight3);
+    }
+    .header-primarylight4{
+        background: linear-gradient(60deg, $brand-primarylight4, $brand-primarylight4);
+    }
+    .header-accent{
+        background: linear-gradient(60deg, $brand-accent, $brand-accent);
+    }
     .header-info{
         background: linear-gradient(60deg, $brand-info, $brand-info);
     }
+    .header-info-light{
+        background: linear-gradient(60deg, $brand-info-light, $brand-info-light);
+    }
+    .header-info-dark{
+        background: linear-gradient(60deg, $brand-info-dark, $brand-info-dark);
+    }
     .header-success{
         background: linear-gradient(60deg, $brand-success, $brand-success);
+    }
+    .header-note{
+        background: linear-gradient(60deg, $brand-note, $brand-note);
+    }
+    .header-caution{
+        background: linear-gradient(60deg, $brand-caution, $brand-caution);
     }
     .header-warning{
         background: linear-gradient(60deg, $brand-warning, $brand-warning);

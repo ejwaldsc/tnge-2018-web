@@ -55,6 +55,21 @@ h2.title{
 .text-primary {
   color: $brand-primary;
 }
+.text-primarylight1 {
+  color: $brand-primarylight1;
+}
+.text-primarylight2 {
+  color: $brand-primarylight2;
+}
+.text-primarylight3 {
+  color: $brand-primarylight3;
+}
+.text-primarylight4 {
+  color: $brand-primarylight4;
+}
+.text-accent {
+  color: $brand-accent;
+}
 .text-danger {
   color: $brand-danger;
 }
@@ -63,4 +78,16 @@ h2.title{
 }
 .text-info {
   color: $brand-info;
+}
+.text-note {
+  color: $brand-note;
+}
+.text-caution {
+  color: $brand-caution;
+}
+.text-info-light {
+  color: $brand-info-light;
+}
+.text-info-dark {
+  color: $brand-info-dark;
 }

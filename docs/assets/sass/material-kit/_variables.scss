@@ -23,11 +23,20 @@ $white-color: #FFFFFF !default;
 
 $gray-color:  #999999 !default;
 
-$brand-primary: #C3FF0D !default;
-$brand-success: #6ccff6 !default;
-$brand-danger: $red !default;
-$brand-warning: $yellow !default;
-$brand-info: #161722 !default;
+$brand-primary: #161722 !default;
+$brand-primarylight1: #342E37 !default;
+$brand-primarylight2: #757780 !default;
+$brand-primarylight3: #E1E2E2 !default;
+$brand-primarylight4: #F5F5F6 !default;
+$brand-accent: #C3FF0D !default;
+$brand-success: #7FE048 !default;
+$brand-danger: #CC3333 !default;
+$brand-caution: #F9CB40 !default;
+$brand-warning: #FA7E4C !default;
+$brand-info: #469BC3 !default;
+$brand-info-light: #6CCFF6 !default;
+$brand-info-dark: #074B70 !default;
+$brand-note: #EBECAF !default;
 $brand-rose: $pink !default;
 
 $border-radius-base: 3px !default;

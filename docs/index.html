@@ -27,7 +27,7 @@
 
 <body class="index-page">
 <!-- Navbar -->
-<nav class="navbar navbar-transparent navbar-info navbar-fixed-top navbar-color-on-scroll">
+<nav class="navbar navbar-transparent navbar-primary navbar-fixed-top navbar-color-on-scroll">
 	<div class="container">
         <div class="navbar-header">
 	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
@@ -138,7 +138,7 @@
 
 						<!-- Tabs on Card -->
 						<div class="card card-nav-tabs">
-							<div class="header header-success">
+							<div class="header header-info-dark">
 								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
 								<div class="nav-tabs-navigation">
 									<div class="nav-tabs-wrapper">
@@ -175,12 +175,12 @@
 
 						<!-- Tabs on Card -->
 						<div class="card card-nav-tabs">
-							<div class="header header-success">
+							<div class="header header-info">
 								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
-								<div class="nav-tabs-navigation">
+								<div class="nav-tabs-navigation text-center">
 									<div class="nav-tabs-wrapper">
 										<ul class="nav nav-tabs" data-tabs="tabs">
-											<li><a href="#home" data-toggle="tab">Forecasts</a></li>
+											<li class="active"><a href="#home" data-toggle="tab">Forecasts</a></li>
 											<li><a href="#updates" data-toggle="tab">Spend</a></li>
 											<li><a href="#history" data-toggle="tab">Assets</a></li>
 										</ul>
@@ -190,13 +190,13 @@
 							<div class="content">
 								<div class="tab-content text-center">
 									<div class="tab-pane active" id="home">
-										<p><i class="material-icons">call_split</i><br />Allocate costs accurately and efficiently</p>
+										<p><i class="material-icons">call_split</i><br />Mauris tortor augue, pretium ut.</p>
 									</div>
 									<div class="tab-pane" id="updates">
-										<p><i class="material-icons">rate_review</i><br />Negotiate optimal service contracts</p>
+										<p><i class="material-icons">rate_review</i><br />Ut a aliquam dolor, sed.</p>
 									</div>
 									<div class="tab-pane" id="history">
-										<p><i class="material-icons">trending_down</i><br />Eliminate unnecessary spend</p>
+										<p><i class="material-icons">trending_down</i><br />Maecenas luctus nisl augue, ut.</p>
 									</div>
 								</div>
 							</div>
@@ -211,12 +211,12 @@
 
 						<!-- Tabs on Card -->
 						<div class="card card-nav-tabs">
-							<div class="header header-success">
+							<div class="header header-info-light">
 								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
 								<div class="nav-tabs-navigation">
 									<div class="nav-tabs-wrapper">
 										<ul class="nav nav-tabs" data-tabs="tabs">
-											<li><a href="#point1" data-toggle="tab">Configuration</a></li>
+											<li class="active"><a href="#point1" data-toggle="tab">Configuration</a></li>
 											<li><a href="#point2" data-toggle="tab">Access</a></li>
 											<li><a href="#point3" data-toggle="tab">Lifecycle</a></li>
 										</ul>
@@ -245,126 +245,75 @@
 		</div>
 		<!-- End Get More Section -->
 		
-		<!-- Start Section Tabs -->
-		<div class="section section-tabs" style="background-image: url('assets/img/services.jpg'); background-size: cover; background-position: top center; min-height: 700px;">
+		<!-- Start Promo Carousel Section -->
+		<div class="section" style="background-image: url('assets/img/services.jpg'); background-size: cover; background-position: top center; min-height: 700px;" id="carousel">
 			<div class="container">
 				<div class="row text-center">
-					
-					<div class="col-md-4">
-						<div class="title">
-							<h3>Item 1</h3>
-						</div>
+					<div class="col-md-8 col-md-offset-2">
+	                    <h2>The Latest</h2>
+	                    <h4>Pellentesque interdum blandit nisi, vitae ultricies purus feugiat ut. Etiam porttitor est consequat, vulputate neque tincidunt, imperdiet lacus. Pellentesque habitant morbi tristique senectus et netus.</h4>
+	                </div>
+					<div class="col-md-8 col-md-offset-2">
+						<!-- Carousel Card -->
+						<div class="card card-raised card-carousel">
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+								<div class="carousel slide" data-ride="carousel">
 
-						<!-- Tabs with icons on Card -->
-						<div class="card card-nav-tabs">
-							<div class="header header-success">
-								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
-								<div class="nav-tabs-navigation">
-									<div class="nav-tabs-wrapper">
-										<ul class="nav nav-tabs" data-tabs="tabs">
-											<li class="active"><a href="#profile" data-toggle="tab">Allocations</a></li>
-											<li><a href="#messages" data-toggle="tab">Sourcing</a></li>
-											<li><a href="#settings" data-toggle="tab">Invoices</a></li>
-										</ul>
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+										<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+										<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+										<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+									</ol>
+
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner">
+										<div class="item active">
+											<img src="assets/img/bg5.jpg" alt="Awesome Image">
+											<div class="carousel-caption">
+												<h4><i class="material-icons">new_releases</i><br /><a href="#">Promo 1</a></h4>
+											</div>
+										</div>
+										<div class="item">
+											<img src="assets/img/city.jpg" alt="Awesome Image">
+											<div class="carousel-caption">
+												<h4><i class="material-icons">announcement</i><br />Promo 2</h4>
+											</div>
+										</div>
+										<div class="item">
+											<img src="assets/img/examples/city.jpg" alt="Awesome Image">
+											<div class="carousel-caption">
+												<h4><i class="material-icons">lightbulb_outline</i><br />Promo 3</h4>
+											</div>
+										</div>
+										<div class="item">
+											<img src="assets/img/bg6.jpg" alt="Awesome Image">
+											<div class="carousel-caption">
+												<h4><i class="material-icons">play_circle_outline</i><br />Promo 4</h4>
+											</div>
+										</div>
 									</div>
-								</div>
-							</div>
-							<div class="content">
-								<div class="tab-content text-center">
-									<div class="tab-pane active" id="profile">
-										<p><i class="material-icons">call_split</i><br />Allocate costs accurately and efficiently</p>
-									</div>
-									<div class="tab-pane" id="messages">
-										<p><i class="material-icons">rate_review</i><br />Negotiate optimal service contracts</p>
-									</div>
-									<div class="tab-pane" id="settings">
-										<p><i class="material-icons">trending_down</i><br />Eliminate unnecessary spend</p>
-									</div>
+
+									<!-- Controls
+									<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+										<i class="material-icons">keyboard_arrow_left</i>
+									</a>
+									<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+										<i class="material-icons">keyboard_arrow_right</i>
+									</a> -->
 								</div>
 							</div>
 						</div>
-						<!-- End Tabs with icons on Card -->
+						<!-- End Carousel Card -->
 
 					</div>
-
-					<div class="col-md-4">
-						<div class="title">
-							<h3>Get More<br />Visibility</h3>
-						</div>
-
-						<!-- Tabs on Card -->
-						<div class="card card-nav-tabs">
-							<div class="header header-danger">
-								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
-								<div class="nav-tabs-navigation">
-									<div class="nav-tabs-wrapper">
-										<ul class="nav nav-tabs" data-tabs="tabs">
-											<li><a href="#home" data-toggle="tab">Forecasts</a></li>
-											<li><a href="#updates" data-toggle="tab">Spend</a></li>
-											<li><a href="#history" data-toggle="tab">Assets</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="content">
-								<div class="tab-content text-center">
-									<div class="tab-pane active" id="home">
-										<p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
-									</div>
-									<div class="tab-pane" id="updates">
-										<p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-									</div>
-									<div class="tab-pane" id="history">
-										<p> I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Tabs on Card -->
-					</div>
-					
-					<div class="col-md-4">
-						<div class="title">
-							<h3>Get More<br />Security</h3>
-						</div>
-
-						<!-- Tabs on Plain Card -->
-						<div class="card card-nav-tabs">
-							<div class="header header-danger">
-								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
-								<div class="nav-tabs-navigation">
-									<div class="nav-tabs-wrapper">
-										<ul class="nav nav-tabs" data-tabs="tabs">
-											<li><a href="#point1" data-toggle="tab">Configuration</a></li>
-											<li><a href="#point2" data-toggle="tab">Access</a></li>
-											<li><a href="#point3" data-toggle="tab">Lifecycle</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="content">
-								<div class="tab-content text-center">
-									<div class="tab-pane active" id="point1">
-										<p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
-									</div>
-									<div class="tab-pane" id="point2">
-										<p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
-									</div>
-									<div class="tab-pane" id="point3">
-										<p> I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- End Tabs on plain Card -->
-					</div>
-
 				</div>
 			</div>
 		</div>
-		<!-- End Section Tabs -->
+		<!-- End Promo Carousel Section -->
 		
-		<!-- Start Section Download -->
+		<!-- Start Section Contact Us -->
 		<div class="section section-download">
 	        <div class="container">
 	            <div class="row text-center">
@@ -373,14 +322,14 @@
 	                    <h4>Discover how more than 40% of the Fortune 500 has reduced costs and improved visibility. Get in touch with us to get started.</h4>
 	                </div>
 					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-4">
-						<a href="#" class="btn btn-primary btn-lg">
-							<span class="title"><i class="material-icons">info</i> Get Started</span>
+						<a href="#" class="btn btn-accent btn-lg">
+							<span class="title"><i class="material-icons">directions_walk</i> Get Started</span>
 						</a>
 					</div>
 	            </div>
 	        </div>
 	    </div>
-		<!-- End Section Download --> 
+		<!-- End Section Contact Us> 
 		  
 	</div>
 	

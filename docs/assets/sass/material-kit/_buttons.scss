@@ -23,15 +23,41 @@
     &.btn-default{
         @include btn-styles($gray-light);
     }
-
     &.btn-primary{
       @include btn-styles($brand-primary);
+    }
+    &.btn-primarylight1{
+      @include btn-styles($brand-primarylight1);
+    }
+    &.btn-primarylight2{
+      @include btn-styles($brand-primarylight2);
+    }
+    &.btn-primarylight3{
+      @include btn-styles($brand-primarylight3);
+    }
+    &.btn-primarylight4{
+      @include btn-styles($brand-primarylight4);
+    }
+    &.btn-accent{
+      @include btn-styles($brand-accent);
+    }
+    &.btn-info-light{
+      @include btn-styles($brand-info-light);
     }
     &.btn-info{
       @include btn-styles($brand-info);
     }
+    &.btn-info-dark{
+      @include btn-styles($brand-info-dark);
+    }
     &.btn-success{
       @include btn-styles($brand-success);
+    }
+    &.btn-note{
+      @include btn-styles($brand-note);
+    }
+    &.btn-caution{
+      @include btn-styles($brand-caution);
     }
     &.btn-warning{
       @include btn-styles($brand-warning);

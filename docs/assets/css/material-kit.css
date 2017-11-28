@@ -2511,7 +2511,7 @@ legend {
 .info {
   max-width: 360px;
   margin: 0 auto;
-  padding: 10px 0 0px; }
+  padding: 70px 0 30px; }
   .info .icon {
     color: #999999; }
     .info .icon > i {
@@ -2695,13 +2695,19 @@ h6, .h6 {
     text-decoration: none; }
 
 .brand-light {
-  font-family: "ChronicaPro-Light"; }
+  font-family: "ChronicaPro-Light";
+  letter-spacing: -.02em;
+  line-height: 1.0em; }
 
 .brand-book {
-  font-family: "ChronicaPro-Book"; }
+  font-family: "ChronicaPro-Book";
+  letter-spacing: -.02em;
+  line-height: 1.0em; }
 
 .brand-regular {
-  font-family: "ChronicaPro-Regular"; }
+  font-family: "ChronicaPro-Regular";
+  letter-spacing: -.02em;
+  line-height: 1.0em; }
 
 .brand-medium {
   font-family: "ChronicaPro-Medium"; }
@@ -3545,7 +3551,7 @@ h2.title {
   z-index: 1031; }
 
 .index-page .wrapper > .header {
-  height: 90vh; }
+  height: 80vh; }
 .index-page .brand {
   margin-top: 30vh;
   color: #FFFFFF;

@@ -2511,7 +2511,7 @@ legend {
 .info {
   max-width: 360px;
   margin: 0 auto;
-  padding: 0px 0 0px; }
+  padding: 10px 0 0px; }
   .info .icon {
     color: #999999; }
     .info .icon > i {

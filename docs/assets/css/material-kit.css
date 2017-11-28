@@ -2142,9 +2142,11 @@ footer {
         position: relative;
         display: block; }
         footer ul li a:hover {
-          text-decoration: none; }
+          text-decoration: none;
+          color: #C3FF0D; }
   footer .copyright {
-    padding: 15px 0; }
+    padding: 15px 0;
+    font-size: 12px; }
     footer .copyright .material-icons {
       font-size: 18px;
       position: relative;
@@ -2509,7 +2511,7 @@ legend {
 .info {
   max-width: 360px;
   margin: 0 auto;
-  padding: 70px 0 30px; }
+  padding: 0px 0 0px; }
   .info .icon {
     color: #999999; }
     .info .icon > i {
@@ -2520,12 +2522,34 @@ legend {
   .info p {
     color: #999999; }
 
+.icon.icon-bigger {
+  font-size: 1.5em; }
 .icon.icon-primary {
   color: #161722; }
+.icon.icon-primarylight1 {
+  color: #342E37; }
+.icon.icon-primarylight2 {
+  color: #757780; }
+.icon.icon-primarylight3 {
+  color: #E1E2E2; }
+.icon.icon-primarylight4 {
+  color: #F5F5F6; }
+.icon.icon-info-light {
+  color: #6CCFF6; }
 .icon.icon-info {
   color: #469BC3; }
+.icon.icon-info-dark {
+  color: #074B70; }
+.icon.icon-info-darker {
+  color: #2B2C48; }
+.icon.icon-accent {
+  color: #C3FF0D; }
 .icon.icon-success {
   color: #7FE048; }
+.icon.icon-note {
+  color: #EBECAF; }
+.icon.icon-caution {
+  color: #F9CB40; }
 .icon.icon-warning {
   color: #FA7E4C; }
 .icon.icon-danger {
@@ -2713,6 +2737,9 @@ h2.title {
 
 .text-accent {
   color: #C3FF0D; }
+
+.text-accent-darker {
+  color: #ACE309; }
 
 .text-danger {
   color: #CC3333; }

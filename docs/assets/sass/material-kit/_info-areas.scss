@@ -1,7 +1,8 @@
 .info{
     max-width: 360px;
     margin: 0 auto;
-    padding: 70px 0 30px;
+    // padding: 70px 0 30px;
+    padding: 0px 0 0px;
 
     .icon{
         color: $gray-color;
@@ -20,14 +21,47 @@
 }
 
 .icon{
+    &.icon-bigger{
+        font-size: 1.5em;
+    }
     &.icon-primary{
         color: $brand-primary;
+    }
+    &.icon-primarylight1{
+        color: $brand-primarylight1;
+    }
+    &.icon-primarylight2{
+        color: $brand-primarylight2;
+    }
+    &.icon-primarylight3{
+        color: $brand-primarylight3;
+    }
+    &.icon-primarylight4{
+        color: $brand-primarylight4;
+    }
+    &.icon-info-light{
+        color: $brand-info-light;
     }
     &.icon-info{
         color: $brand-info;
     }
+    &.icon-info-dark{
+        color: $brand-info-dark;
+    }
+    &.icon-info-darker{
+        color: $brand-info-darker;
+    }
+    &.icon-accent{
+        color: $brand-accent;
+    }
     &.icon-success{
         color: $brand-success;
+    }
+    &.icon-note{
+        color: $brand-note;
+    }
+    &.icon-caution{
+        color: $brand-caution;
     }
     &.icon-warning{
         color: $brand-warning;

@@ -22,6 +22,7 @@ footer{
 
                 &:hover{
                     text-decoration: none;
+                    color: $brand-accent;
                 }
             }
         }
@@ -29,6 +30,7 @@ footer{
 
     .copyright{
         padding: 15px 0;
+        font-size: $font-size-small;
         .material-icons{
             font-size: 18px;
             position: relative;

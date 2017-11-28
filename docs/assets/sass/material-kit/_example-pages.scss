@@ -27,7 +27,7 @@ h2.title{
 }
 
 // general style for example pages
-.header-filter{
+.header-filter, .header-filter2{
     position: relative;
 
     &:after{
@@ -101,8 +101,22 @@ h2.title{
         h3{
             font-size: 1.5em;
             text-transform: none;
-            max-width: 400px;
+            max-width: 500px; // was 400px - EJW
             margin: 10px auto 0;
+        }
+        a.btn{
+        	color: $white-color;
+        	font-family: $font-weight-bold;
+        	background-color: transparent;
+        	border-color: #FFFFFF;
+			border-style: solid;
+			border-width: 1px;
+        	
+        	&:hover{
+				// border-color: #C3FF0D;
+				// border-style: solid;
+				// border-width: 1px;
+			}
         }
     }
     .section-basic{
@@ -113,6 +127,13 @@ h2.title{
         background: linear-gradient(45deg,  rgba(40, 47, 68, 0.88) 0%, rgba(19, 64, 116, 0.45) 100%);
         background: -moz-linear-gradient(135deg,  rgba(40, 47, 68, 0.88) 0%, rgba(19, 64, 116, 0.45) 100%);
         background: -webkit-linear-gradient(135deg,  rgba(40, 47, 68, 0.88) 0%, rgba(19, 64, 116, 0.45) 100%);
+
+    }
+    .header-filter2:after{
+        background: rgba(40, 47, 68, 0.64);
+        background: linear-gradient(45deg,  rgba(40, 47, 68, 0.20) 0%, rgba(19, 64, 116, 0.45) 100%);
+        background: -moz-linear-gradient(135deg,  rgba(40, 47, 68, 0.20) 0%, rgba(19, 64, 116, 0.45) 100%);
+        background: -webkit-linear-gradient(135deg,  rgba(40, 47, 68, 0.20) 0%, rgba(19, 64, 116, 0.45) 100%);
 
     }
 }

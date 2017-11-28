@@ -37,7 +37,8 @@
       padding-bottom: 15px;
 
       font-family: $font-weight-default;
-      font-size: $mdb-btn-font-size-lg;
+      // font-size: $mdb-btn-font-size-lg;
+      font-size: ceil(($mdb-btn-font-size-lg * 1.1)); // make font 10% bigger
       text-transform: none;
 
       border-radius: $border-radius-base;

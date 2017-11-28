@@ -2178,7 +2178,7 @@ legend {
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: "ChronicaPro-Book";
-    font-size: 14px;
+    font-size: 16px;
     text-transform: none;
     border-radius: 3px; }
     .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
@@ -2713,7 +2713,7 @@ h6, .h6 {
 .brand-light {
   font-family: "ChronicaPro-Light";
   letter-spacing: -.02em;
-  line-height: 1.05em; }
+  line-height: 1.2em; }
 
 .brand-book {
   font-family: "ChronicaPro-Book";
@@ -2943,7 +2943,8 @@ h2.title {
       color: #fff;
       font-size: 2em; }
   .card .content {
-    padding: 15px; }
+    padding: 15px;
+    font-size: 16px; }
   .card .card-body {
     height: 30%;
     padding: 18px; }
@@ -3525,9 +3526,9 @@ h2.title {
 .description {
   color: #999999; }
 
-.header-filter {
+.header-filter, .header-filter2 {
   position: relative; }
-  .header-filter:after {
+  .header-filter:after, .header-filter2:after {
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -3537,7 +3538,7 @@ h2.title {
     top: 0;
     content: "";
     background-color: rgba(0, 0, 0, 0.4); }
-  .header-filter .container {
+  .header-filter .container, .header-filter2 .container {
     z-index: 2;
     position: relative; }
 
@@ -3578,8 +3579,15 @@ h2.title {
   .index-page .brand h3 {
     font-size: 1.5em;
     text-transform: none;
-    max-width: 400px;
+    max-width: 500px;
     margin: 10px auto 0; }
+  .index-page .brand a.btn {
+    color: #FFFFFF;
+    font-family: "ChronicaPro-Regular";
+    background-color: transparent;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px; }
 .index-page .section-basic {
   padding-top: 15px; }
 .index-page .header-filter:after {
@@ -3587,6 +3595,11 @@ h2.title {
   background: linear-gradient(45deg, rgba(40, 47, 68, 0.88) 0%, rgba(19, 64, 116, 0.45) 100%);
   background: -moz-linear-gradient(135deg, rgba(40, 47, 68, 0.88) 0%, rgba(19, 64, 116, 0.45) 100%);
   background: -webkit-linear-gradient(135deg, rgba(40, 47, 68, 0.88) 0%, rgba(19, 64, 116, 0.45) 100%); }
+.index-page .header-filter2:after {
+  background: rgba(40, 47, 68, 0.64);
+  background: linear-gradient(45deg, rgba(40, 47, 68, 0.2) 0%, rgba(19, 64, 116, 0.45) 100%);
+  background: -moz-linear-gradient(135deg, rgba(40, 47, 68, 0.2) 0%, rgba(19, 64, 116, 0.45) 100%);
+  background: -webkit-linear-gradient(135deg, rgba(40, 47, 68, 0.2) 0%, rgba(19, 64, 116, 0.45) 100%); }
 
 .landing-page .header {
   height: 100vh; }

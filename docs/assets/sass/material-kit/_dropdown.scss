@@ -18,7 +18,12 @@
         &:focus {
           @include shadow-8dp();
           background-color: #C3FF0D;
-
+        }
+        .menu-header{
+          &:hover,
+          &:focus {
+            background-color: transparent;
+          }
         }
     }
 

@@ -256,6 +256,26 @@
   &-fixed-top{
       border-radius: 0;
   }
+  &.navbar-primarylight4{
+      background-color: $brand-primarylight4;
+      color: $brand-primary;
+
+      .logo {
+      		padding-top: 5px;
+      }
+  }
+  &.navbar-white{
+      background-color: $white-color;
+      color: $brand-primary;
+	  border-bottom-color: $brand-primarylight1;
+	  border-bottom-style: solid;
+	  border-bottom-width: 1px;
+	  font-family: $font-weight-default;
+
+      .logo {
+      		padding-top: 5px;
+      }
+  }
   @media (max-width: $screen-md-max) {
 
     .navbar-brand {

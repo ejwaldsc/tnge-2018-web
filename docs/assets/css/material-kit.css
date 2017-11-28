@@ -2442,6 +2442,20 @@ legend {
       color: #FFFFFF; }
   .navbar-fixed-top {
     border-radius: 0; }
+  .navbar.navbar-primarylight4 {
+    background-color: #F5F5F6;
+    color: #161722; }
+    .navbar.navbar-primarylight4 .logo {
+      padding-top: 5px; }
+  .navbar.navbar-white {
+    background-color: #FFFFFF;
+    color: #161722;
+    border-bottom-color: #342E37;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-family: "ChronicaPro-Book"; }
+    .navbar.navbar-white .logo {
+      padding-top: 5px; }
   @media (max-width: 1199px) {
     .navbar {
       /*

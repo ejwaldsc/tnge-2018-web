@@ -2941,7 +2941,7 @@ h2.title {
   width: 100%;
   border-radius: 3px;
   color: rgba(0,0,0, 0.87);
-  background: #fff;
+  background: #F5F5F6;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
   .card .card-height-indicator {
     margin-top: 100%; }

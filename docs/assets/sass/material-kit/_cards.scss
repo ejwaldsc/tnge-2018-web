@@ -17,7 +17,11 @@
 
     border-radius: $border-radius-base;
     color: $mdb-card-body-text;
-    background: $mdb-card-body-background;
+    // background: $mdb-card-body-background;
+    background: $brand-primarylight4;
+    // .brand-lightestgray {
+    //	   background-color: $brand-primarylight4
+    // }
 
     @include shadow-2dp();
 

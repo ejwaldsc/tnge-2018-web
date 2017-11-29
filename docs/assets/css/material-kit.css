@@ -3607,7 +3607,7 @@ h2.title {
     max-width: 500px;
     margin: 10px auto 0; }
   .index-page .brand h4 {
-    max-width: 400px;
+    max-width: 500px;
     margin: 10px auto 0; }
   .index-page .brand a.btn {
     color: #FFFFFF;
@@ -3691,7 +3691,7 @@ h2.title {
 @media (max-width: 768px) {
   .index-page .wrapper > .header {
     height: auto;
-    min-height: 90vh; }
+    min-height: 85vh; }
   .index-page .footer .copyright {
     display: inline-block;
     text-align: center;

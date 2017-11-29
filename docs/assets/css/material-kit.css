@@ -3593,7 +3593,7 @@ h2.title {
   z-index: 1031; }
 
 .index-page .wrapper > .header {
-  height: 100vh; }
+  height: 80vh; }
 .index-page .brand {
   margin-top: 30vh;
   color: #FFFFFF;
@@ -3605,6 +3605,9 @@ h2.title {
     font-size: 1.5em;
     text-transform: none;
     max-width: 500px;
+    margin: 10px auto 0; }
+  .index-page .brand h4 {
+    max-width: 400px;
     margin: 10px auto 0; }
   .index-page .brand a.btn {
     color: #FFFFFF;
@@ -3681,12 +3684,15 @@ h2.title {
   .index-page > .header,
   .landing-page > .header {
     height: auto;
-    min-height: 100vh; }
+    min-height: 80vh; }
     .index-page > .header .container,
     .landing-page > .header .container {
       padding-bottom: 70px; } }
 @media (max-width: 768px) {
-  .footer .copyright {
+  .index-page .wrapper > .header {
+    height: auto;
+    min-height: 90vh; }
+  .index-page .footer .copyright {
     display: inline-block;
     text-align: center;
     padding: 10px 0;
@@ -3705,6 +3711,9 @@ h2.title {
   .logo img {
     padding-left: 10px; }
 
+  .index-page .wrapper > .header {
+    height: auto;
+    min-height: 85vh; }
   .index-page .wrapper > .header .brand > h1 {
     font-size: 2.6em; }
   .index-page .wrapper > .header .brand > h4 {

@@ -85,6 +85,8 @@ h2.title{
     z-index: 1031;
 }
 
+// style for the index page
+
 .index-page{
     .wrapper > .header{
         height: 80vh;
@@ -142,7 +144,7 @@ h2.title{
 .landing-page{
 
     .header{
-        height: 100vh;
+        height: 80vh;
 
         .container{
             padding-top: 26vh;
@@ -223,7 +225,15 @@ h2.title{
     }
 }
 
+@media (max-width: 1024px){
+    .index-page{
+		.wrapper > .header .brand > h1 {
+			font-size: 3.8em;
+		}
+	}
+}
 @media (max-width: 991px){
+    .index-page .header,
     .landing-page .header{
         height: auto;
         min-height: 100vh;
@@ -241,10 +251,9 @@ h2.title{
             padding: 10px 0;
             float: none !important;
             width: 100%;
-
         }
     }
-
+    
     .navbar.navbar-transparent{
         background-color: rgba(0,0,0,.4);
         padding-top: 10px;
@@ -260,4 +269,10 @@ h2.title{
 	.logo img{
         padding-left: 10px;
     }
+    
+    .index-page{
+		.wrapper > .header .brand > h1 {
+			font-size: 2.6em;
+		}
+	}
 }

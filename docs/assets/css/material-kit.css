@@ -39,7 +39,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
   line-height: 1.5em; }
 
 a, a:hover, a:focus {
-  color: #161722; }
+  color: #ACE309; }
   a .material-icons, a:hover .material-icons, a:focus .material-icons {
     vertical-align: middle; }
 
@@ -2685,6 +2685,31 @@ h6, .h6 {
   font-size: 1em;
   text-transform: uppercase; }
 
+@media (max-width: 425px) {
+  h1, .h1 {
+    font-size: 2.6em;
+    line-height: 1.15em; }
+
+  h2, .h2 {
+    font-size: 1.825em; }
+
+  h3, .h3 {
+    font-size: 1.3em;
+    line-height: 1.4em;
+    margin: 20px 0 10px; }
+
+  h4, .h4 {
+    font-size: 1.25em;
+    line-height: 1.4em; }
+
+  h5, .h5 {
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: 15px; }
+
+  h6, .h6 {
+    font-size: 1em;
+    text-transform: uppercase; } }
 .title,
 .card-title,
 .info-title,
@@ -3602,7 +3627,7 @@ h2.title {
   background: -webkit-linear-gradient(135deg, rgba(40, 47, 68, 0.2) 0%, rgba(19, 64, 116, 0.45) 100%); }
 
 .landing-page .header {
-  height: 100vh; }
+  height: 80vh; }
   .landing-page .header .container {
     padding-top: 26vh;
     color: #FFFFFF; }
@@ -3649,10 +3674,15 @@ h2.title {
 .index-page .navbar-transparent {
   padding-top: 25px; }
 
+@media (max-width: 1024px) {
+  .index-page .wrapper > .header .brand > h1 {
+    font-size: 3.8em; } }
 @media (max-width: 991px) {
+  .index-page .header,
   .landing-page .header {
     height: auto;
     min-height: 100vh; }
+    .index-page .header .container,
     .landing-page .header .container {
       padding-bottom: 70px; } }
 @media (max-width: 768px) {
@@ -3673,6 +3703,9 @@ h2.title {
     margin-right: 10px; } }
 @media (max-width: 425px) {
   .logo img {
-    padding-left: 10px; } }
+    padding-left: 10px; }
+
+  .index-page .wrapper > .header .brand > h1 {
+    font-size: 2.6em; } }
 
 /*# sourceMappingURL=material-kit.css.map */

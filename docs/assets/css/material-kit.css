@@ -3593,7 +3593,7 @@ h2.title {
   z-index: 1031; }
 
 .index-page .wrapper > .header {
-  height: 80vh; }
+  height: 100vh; }
 .index-page .brand {
   margin-top: 30vh;
   color: #FFFFFF;
@@ -3678,12 +3678,12 @@ h2.title {
   .index-page .wrapper > .header .brand > h1 {
     font-size: 3.8em; } }
 @media (max-width: 991px) {
-  .index-page .header,
-  .landing-page .header {
+  .index-page > .header,
+  .landing-page > .header {
     height: auto;
     min-height: 100vh; }
-    .index-page .header .container,
-    .landing-page .header .container {
+    .index-page > .header .container,
+    .landing-page > .header .container {
       padding-bottom: 70px; } }
 @media (max-width: 768px) {
   .footer .copyright {
@@ -3706,6 +3706,8 @@ h2.title {
     padding-left: 10px; }
 
   .index-page .wrapper > .header .brand > h1 {
-    font-size: 2.6em; } }
+    font-size: 2.6em; }
+  .index-page .wrapper > .header .brand > h4 {
+    font-size: 1.15em; } }
 
 /*# sourceMappingURL=material-kit.css.map */

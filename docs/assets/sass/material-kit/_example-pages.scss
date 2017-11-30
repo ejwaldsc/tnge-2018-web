@@ -92,7 +92,7 @@ h2.title{
         height: 80vh;
     }
     .brand{
-        margin-top: 30vh;
+        margin-top: 25vh;
         color: #FFFFFF;
         text-align: center;
 
@@ -274,12 +274,17 @@ h2.title{
         margin-left: 10px;
         margin-right: 10px;
     }
+    
 }
-@media (max-width: 425px){
-	.logo img{
+@media (max-width: 767px){
+	.logo svg{
         padding-left: 10px;
     }
-    
+}
+@media (max-width: 425px){
+	.logo svg{
+        padding-left: 10px;
+    }
     .index-page{
 		.wrapper > .header {
 			height: auto;
@@ -291,5 +296,8 @@ h2.title{
 		.wrapper > .header .brand > h4 {
 			font-size: 1.15em;
 		}
+		// .logo-container > .logo {
+    		// width: 130px;
+    	// }
 	}
 }

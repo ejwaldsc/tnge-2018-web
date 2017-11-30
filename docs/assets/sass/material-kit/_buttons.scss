@@ -32,6 +32,9 @@
     &.btn-primarylight2{
       @include btn-styles($brand-primarylight2);
     }
+    &.btn-outline-pl2{
+      @include btn-styles($brand-primarylight2);
+    }
     &.btn-primarylight3{
       @include btn-styles($brand-primarylight3);
     }

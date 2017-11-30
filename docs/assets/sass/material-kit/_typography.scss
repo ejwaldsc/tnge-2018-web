@@ -69,7 +69,7 @@ h6, .h6{
 .brand-light{
     font-family: $font-weight-light;
     letter-spacing: -.02em;
-    line-height: 1.2em;
+    line-height: 1.4em;
 }
 .brand-book{
     font-family: $font-weight-default;
@@ -96,6 +96,9 @@ h2.title{
 .card-description,
 .footer-big p{
     color: $gray-light;
+}
+.text-white {
+  color: $white-color;
 }
 .text-warning {
   color: $brand-warning;

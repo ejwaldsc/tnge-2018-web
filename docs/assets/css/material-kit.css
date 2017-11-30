@@ -351,6 +351,61 @@ a, a:hover, a:focus {
       .btn.btn-primarylight2.btn-simple:hover, .btn.btn-primarylight2.btn-simple:focus, .btn.btn-primarylight2.btn-simple:active, .navbar .navbar-nav > li > a.btn.btn-primarylight2.btn-simple:hover, .navbar .navbar-nav > li > a.btn.btn-primarylight2.btn-simple:focus, .navbar .navbar-nav > li > a.btn.btn-primarylight2.btn-simple:active {
         background-color: transparent;
         color: #757780; }
+  .btn.btn-outline-pl2, .navbar .navbar-nav > li > a.btn.btn-outline-pl2 {
+    box-shadow: 0 2px 2px 0 rgba(117, 119, 128, 0.14), 0 3px 1px -2px rgba(117, 119, 128, 0.2), 0 1px 5px 0 rgba(117, 119, 128, 0.12); }
+    .btn.btn-outline-pl2, .btn.btn-outline-pl2:hover, .btn.btn-outline-pl2:focus, .btn.btn-outline-pl2:active, .btn.btn-outline-pl2.active, .btn.btn-outline-pl2:active:focus, .btn.btn-outline-pl2:active:hover, .btn.btn-outline-pl2.active:focus, .btn.btn-outline-pl2.active:hover, .open > .btn.btn-outline-pl2.dropdown-toggle, .open > .btn.btn-outline-pl2.dropdown-toggle:focus, .open > .btn.btn-outline-pl2.dropdown-toggle:hover,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:hover,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:focus,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:active,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2.active,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:active:focus,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:active:hover,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2.active:focus,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2.active:hover, .open >
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2.dropdown-toggle, .open >
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2.dropdown-toggle:focus, .open >
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2.dropdown-toggle:hover {
+      background-color: #757780;
+      color: #FFFFFF; }
+    .btn.btn-outline-pl2:focus, .btn.btn-outline-pl2:active, .btn.btn-outline-pl2:hover,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:focus,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:active,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:hover {
+      box-shadow: 0 14px 26px -12px rgba(117, 119, 128, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(117, 119, 128, 0.2); }
+    .btn.btn-outline-pl2.disabled, .btn.btn-outline-pl2.disabled:hover, .btn.btn-outline-pl2.disabled:focus, .btn.btn-outline-pl2.disabled.focus, .btn.btn-outline-pl2.disabled:active, .btn.btn-outline-pl2.disabled.active, .btn.btn-outline-pl2:disabled, .btn.btn-outline-pl2:disabled:hover, .btn.btn-outline-pl2:disabled:focus, .btn.btn-outline-pl2:disabled.focus, .btn.btn-outline-pl2:disabled:active, .btn.btn-outline-pl2:disabled.active, .btn.btn-outline-pl2[disabled], .btn.btn-outline-pl2[disabled]:hover, .btn.btn-outline-pl2[disabled]:focus, .btn.btn-outline-pl2[disabled].focus, .btn.btn-outline-pl2[disabled]:active, .btn.btn-outline-pl2[disabled].active, fieldset[disabled] .btn.btn-outline-pl2, fieldset[disabled] .btn.btn-outline-pl2:hover, fieldset[disabled] .btn.btn-outline-pl2:focus, fieldset[disabled] .btn.btn-outline-pl2.focus, fieldset[disabled] .btn.btn-outline-pl2:active, fieldset[disabled] .btn.btn-outline-pl2.active,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2.disabled,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2.disabled:hover,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2.disabled:focus,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2.disabled.focus,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2.disabled:active,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2.disabled.active,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:disabled,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:disabled:hover,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:disabled:focus,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:disabled.focus,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:disabled:active,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2:disabled.active,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2[disabled],
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2[disabled]:hover,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2[disabled]:focus,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2[disabled].focus,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2[disabled]:active,
+    .navbar .navbar-nav > li > a.btn.btn-outline-pl2[disabled].active,
+    fieldset[disabled] .navbar .navbar-nav > li > a.btn.btn-outline-pl2,
+    fieldset[disabled] .navbar .navbar-nav > li > a.btn.btn-outline-pl2:hover,
+    fieldset[disabled] .navbar .navbar-nav > li > a.btn.btn-outline-pl2:focus,
+    fieldset[disabled] .navbar .navbar-nav > li > a.btn.btn-outline-pl2.focus,
+    fieldset[disabled] .navbar .navbar-nav > li > a.btn.btn-outline-pl2:active,
+    fieldset[disabled] .navbar .navbar-nav > li > a.btn.btn-outline-pl2.active {
+      box-shadow: none; }
+    .btn.btn-outline-pl2.btn-simple, .navbar .navbar-nav > li > a.btn.btn-outline-pl2.btn-simple {
+      background-color: transparent;
+      color: #757780;
+      box-shadow: none; }
+      .btn.btn-outline-pl2.btn-simple:hover, .btn.btn-outline-pl2.btn-simple:focus, .btn.btn-outline-pl2.btn-simple:active, .navbar .navbar-nav > li > a.btn.btn-outline-pl2.btn-simple:hover, .navbar .navbar-nav > li > a.btn.btn-outline-pl2.btn-simple:focus, .navbar .navbar-nav > li > a.btn.btn-outline-pl2.btn-simple:active {
+        background-color: transparent;
+        color: #757780; }
   .btn.btn-primarylight3, .navbar .navbar-nav > li > a.btn.btn-primarylight3 {
     box-shadow: 0 2px 2px 0 rgba(225, 226, 226, 0.14), 0 3px 1px -2px rgba(225, 226, 226, 0.2), 0 1px 5px 0 rgba(225, 226, 226, 0.12); }
     .btn.btn-primarylight3, .btn.btn-primarylight3:hover, .btn.btn-primarylight3:focus, .btn.btn-primarylight3:active, .btn.btn-primarylight3.active, .btn.btn-primarylight3:active:focus, .btn.btn-primarylight3:active:hover, .btn.btn-primarylight3.active:focus, .btn.btn-primarylight3.active:hover, .open > .btn.btn-primarylight3.dropdown-toggle, .open > .btn.btn-primarylight3.dropdown-toggle:focus, .open > .btn.btn-primarylight3.dropdown-toggle:hover,
@@ -2738,7 +2793,7 @@ h6, .h6 {
 .brand-light {
   font-family: "ChronicaPro-Light";
   letter-spacing: -.02em;
-  line-height: 1.2em; }
+  line-height: 1.4em; }
 
 .brand-book {
   font-family: "ChronicaPro-Book";
@@ -2763,6 +2818,9 @@ h2.title {
 .card-description,
 .footer-big p {
   color: #999999; }
+
+.text-white {
+  color: #FFFFFF; }
 
 .text-warning {
   color: #FA7E4C; }
@@ -3595,7 +3653,7 @@ h2.title {
 .index-page .wrapper > .header {
   height: 80vh; }
 .index-page .brand {
-  margin-top: 30vh;
+  margin-top: 25vh;
   color: #FFFFFF;
   text-align: center; }
   .index-page .brand h1 {
@@ -3707,8 +3765,11 @@ h2.title {
   .main-raised {
     margin-left: 10px;
     margin-right: 10px; } }
+@media (max-width: 767px) {
+  .logo svg {
+    padding-left: 10px; } }
 @media (max-width: 425px) {
-  .logo img {
+  .logo svg {
     padding-left: 10px; }
 
   .index-page .wrapper > .header {

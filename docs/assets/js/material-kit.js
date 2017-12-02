@@ -27,7 +27,8 @@ $(document).ready(function(){
     $.material.init();
 
     //  Activate the Tooltips
-    $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip({trigger: "hover"});
+    // $('.btn-warning').tooltip({title: "Hooray!", trigger: "hover"});
 
     // Activate Datepicker
     if($('.datepicker').length != 0){

@@ -173,6 +173,13 @@
     ));
     @include call-variations-content-mixin($args-inverse);
   }
+  &#{$component}-primarylight3#{$selector-suffix} {
+    $args-primarylight3: map-merge($args, (
+            variation-color: $brand-primarylight3,
+            variation-color-text: $brand-primary,
+    ));
+    @include call-variations-content-mixin($args-primarylight3);
+  }
   &#{$component}-primarylight4#{$selector-suffix} {
     $args-primarylight4: map-merge($args, (
             variation-color: $brand-primarylight4,
@@ -214,6 +221,20 @@
             variation-color-text: $brand-primary,
     ));
     @include call-variations-content-mixin($args-info-light);
+  }
+  &#{$component}-note#{$selector-suffix} {
+    $args-note: map-merge($args, (
+            variation-color: $brand-note,
+            variation-color-text: $brand-note,
+    ));
+    @include call-variations-content-mixin($args-note);
+  }
+  &#{$component}-caution#{$selector-suffix} {
+    $args-caution: map-merge($args, (
+            variation-color: $brand-caution,
+            variation-color-text: $brand-caution,
+    ));
+    @include call-variations-content-mixin($args-caution);
   }
   &#{$component}-warning#{$selector-suffix} {
     $args-warning: map-merge($args, (

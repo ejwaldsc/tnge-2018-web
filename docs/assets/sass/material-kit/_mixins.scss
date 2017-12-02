@@ -173,12 +173,26 @@
     ));
     @include call-variations-content-mixin($args-inverse);
   }
+  &#{$component}-primarylight4#{$selector-suffix} {
+    $args-primarylight4: map-merge($args, (
+            variation-color: $brand-primarylight4,
+            variation-color-text: $brand-primary,
+    ));
+    @include call-variations-content-mixin($args-primarylight4);
+  }
   &#{$component}-primary#{$selector-suffix} {
     $args-primary: map-merge($args, (
             variation-color: $brand-primary,
             variation-color-text: $mdb-text-color-light
     ));
     @include call-variations-content-mixin($args-primary);
+  }
+  &#{$component}-accent#{$selector-suffix} {
+    $args-accent: map-merge($args, (
+            variation-color: $brand-accent,
+            variation-color-text: $brand-primary,
+    ));
+    @include call-variations-content-mixin($args-accent);
   }
   &#{$component}-success#{$selector-suffix} {
     $args-success: map-merge($args, (
@@ -193,6 +207,13 @@
             variation-color-text: $mdb-text-color-light
     ));
     @include call-variations-content-mixin($args-info);
+  }
+  &#{$component}-info-light#{$selector-suffix} {
+    $args-info-light: map-merge($args, (
+            variation-color: $brand-info-light,
+            variation-color-text: $brand-primary,
+    ));
+    @include call-variations-content-mixin($args-info-light);
   }
   &#{$component}-warning#{$selector-suffix} {
     $args-warning: map-merge($args, (
@@ -314,6 +335,23 @@
       background-color: transparent;
       color: $btn-color;
       box-shadow: none;
+
+      &:hover,
+      &:focus,
+      &:active{
+          background-color: transparent;
+          color: $btn-color;
+      }
+  }
+  
+  &.btn-outline {
+      background-color: transparent;
+      border-color: $btn-color;
+      border-style: solid;
+      border-width: 1px;
+      color: $btn-color;
+      // font-family: $font-weight-extra-bold;
+      // box-shadow: none;
 
       &:hover,
       &:focus,

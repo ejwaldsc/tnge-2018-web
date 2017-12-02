@@ -44,6 +44,9 @@
     &.btn-accent{
       @include btn-styles($brand-accent);
     }
+    &.btn-accent-darker{
+      @include btn-styles($brand-accent-darker);
+    }
     &.btn-info-light{
       @include btn-styles($brand-info-light);
     }

@@ -51,3 +51,35 @@
     }
 
 }
+// EJW changes
+.nav-tabs-wrapper {
+  margin: 0 auto;
+}
+
+.clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+.nav-tabs {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+     width: -moz-fit-content;
+          width: fit-content;
+  
+  @extend .clearfix;
+  
+  > li {
+    float: left;
+
+    &:last-child {
+      a {
+        margin-right: 0;
+      }
+    }
+  }
+// End EJW changes
+  	
+}

@@ -26,8 +26,23 @@
 </head>
 
 <body class="index-page">
+
 <!-- Navbar -->
 <nav class="navbar navbar-transparent navbar-primary navbar-fixed-top navbar-color-on-scroll">
+	<div class="alert alert-primarylight4">
+		<div class="container">
+			<div class="alert-icon">
+				<i class="material-icons">error_outline</i>
+			</div>
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span class="text-primary" aria-hidden="true"><i class="material-icons">clear</i></span>
+			</button>
+			<b>Announcement:</b> Tangoe LIVE 2018 early registration extended!&nbsp;&nbsp;
+			<a href="https://www.cvent.com/events/the-premier-telecom-management-event-of-the-year-/registration-e70fea35b8ba4df6ad6a5f2e27b8249d.aspx?fqp=true" class="btn btn-accent-darker btn-raised btn-outline btn-xs">
+				<span class="brand-regular text-primary" >Register Now</span>
+			</a>
+		</div>
+	</div>
 	<div class="container">
         
         <div class="navbar-header">
@@ -98,12 +113,7 @@
 
 	    <div class="collapse navbar-collapse" id="navigation-index">
 	    	<ul class="nav navbar-nav navbar-right">
-        		<li>
-					<a rel="tooltip" title="Search" data-placement="bottom" href="#" class="btn btn-white btn-simple btn-just-icon">
-						<i class="material-icons">search</i>
-					</a>
-				</li>
-				<li class="dropdown">
+        		<li class="dropdown">
         			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons">apps</i> Solutions <b class="caret"></b></a>
         			<ul class="dropdown-menu">
 					  <li><a class="title">BY CHALLENGE</a></li>
@@ -125,14 +135,6 @@
         			</ul>
         		</li>
 				<li class="dropdown">
-        			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons">view_carousel</i> Resources <b class="caret"></b></a>
-        			<ul class="dropdown-menu">
-					  <li><a href="#">TEM Center of Excellence</a></li>
-					  <li><a href="#">Library</a></li>
-					  <li><a href="#">Blog</a></li>
-        			</ul>
-        		</li>
-        		<li class="dropdown">
         			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons">group</i> Company <b class="caret"></b></a>
         			<ul class="dropdown-menu">
 					  <li><a href="#">People</a></li>
@@ -141,6 +143,15 @@
 					  <li><a href="#">Partners</a></li>
         			</ul>
         		</li>
+        		<li class="dropdown">
+        			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons">view_carousel</i> Resources <b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+					  <li><a href="#">TEM Center of Excellence</a></li>
+					  <li><a href="#">Library</a></li>
+					  <li><a href="#">Blog</a></li>
+        			</ul>
+        		</li>
+        		<li>&nbsp;</li>
         		<li class="dropdown">
         			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons">more_vert</i> </a>
         			<ul class="dropdown-menu">
@@ -153,9 +164,20 @@
 					  <li><a href="#">Locations</a></li>
         			</ul>
         		</li>
-        		<li>
-					<a rel="tooltip" title="Contact Us" data-placement="bottom" href="#" class="btn btn-white btn-simple btn-just-icon">
+        		<li>&nbsp;</li>
+        		<li class="dropdown">
+					<a rel="tooltip" title="Login" data-placement="bottom" href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="material-icons">person_outline</i> 
+					</a>
+				</li>
+        		<li class="dropdown">
+					<a rel="tooltip" title="Contact Us" data-placement="bottom" href="#" class="dropdown-toggle" data-toggle="dropdown">
 						<i class="material-icons">phone_android</i>
+					</a>
+				</li>
+        		<li class="dropdown">
+					<a rel="tooltip" title="Search" data-placement="bottom" href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="material-icons">search</i>
 					</a>
 				</li>
 
@@ -166,6 +188,7 @@
 <!-- End Navbar -->
 
 <div class="wrapper">
+
 	<div class="header header-filter2" style="background-image: url('assets/img/bg6.jpg');">
 		<div class="container">
 			<div class="row">
@@ -205,9 +228,9 @@
 								<div class="nav-tabs-navigation">
 									<div class="nav-tabs-wrapper">
 										<ul class="nav nav-tabs" data-tabs="tabs">
-											<li class="active"><a href="#allocate" data-toggle="tab">Allocate</a></li>
-											<li><a href="#sourcing" data-toggle="tab">Source</a></li>
-											<li><a href="#invoice" data-toggle="tab">Invoice</a></li>
+											<li class="active"><a rel="tooltip" title="Allocations" data-placement="top" href="#allocate" data-toggle="tab"><i class="material-icons">call_split</i></a></li>
+											<li><a rel="tooltip" title="Sourcing" data-placement="top" href="#sourcing" data-toggle="tab"><i class="material-icons">rate_review</i></a></li>
+											<li><a rel="tooltip" title="Invoice Processing" data-placement="top" href="#invoice" data-toggle="tab"><i class="material-icons">trending_down</i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -215,17 +238,17 @@
 							<div class="content">
 								<div class="tab-content text-center">
 									<div class="tab-pane active" id="allocate">
-										<p><span class="text-primary"><i class="material-icons">call_split</i></span><br />Allocate costs accurately and efficiently.<br />
+										<p>Allocate costs accurately and efficiently.<br />
 											<a href="#" class="btn btn-primarylight3 btn-raised btn-md"><span class="text-primary brand-regular">More &raquo;</span></a>
 										</p>
 									</div>
 									<div class="tab-pane" id="sourcing">
-										<p><i class="material-icons">rate_review</i><br />Negotiate optimal service contracts.<br />
+										<p>Negotiate optimal service contracts.<br />
 											<a href="#" class="btn btn-primarylight3 btn-raised btn-md"><span class="text-primary brand-regular">More &raquo;</span></a>
 										</p>
 									</div>
 									<div class="tab-pane" id="invoice">
-										<p><i class="material-icons">trending_down</i><br />Eliminate unnecessary spend with efficient invoice processing.<br />
+										<p>Eliminate unnecessary spend with efficient invoice processing.<br />
 											<a href="#" class="btn btn-primarylight3 btn-raised btn-md"><span class="text-primary brand-regular">More &raquo;</span></a>
 										</p>
 									</div>
@@ -370,7 +393,7 @@
 										<div class="item">
 											<img src="assets/img/Craig_CIO_bg.jpg" alt="Awesome Image">
 											<div class="carousel-caption">
-												<h4><i class="material-icons">lightbulb_outline</i><br /><a href="#">News Story</a></h4>
+												<h4>CIO Magazine:<br />Not Your Father's Cybersecurity<br /><a href="#" class="btn btn-primarylight3 btn-raised"><span class="text-primary brand-regular">More &raquo;</span></a></h4>
 											</div>
 										</div>
 										<div class="item">

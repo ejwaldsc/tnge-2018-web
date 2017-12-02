@@ -15,17 +15,19 @@
         right: 0;
     }
 
+    // @include shadow-2dp();
+    
     border-radius: $border-radius-base;
     color: $mdb-card-body-text;
+    background-color: none;
+    // background-color: $white-color;
     // background: $mdb-card-body-background;
-    background: $brand-primarylight4;
+    // background: $brand-primarylight4;
     // .brand-lightestgray {
-    //	   background-color: $brand-primarylight4
+    // background-color: $brand-primarylight4
     // }
-
-    @include shadow-2dp();
-
-    .card-image {
+    
+	.card-image {
         height: 60%;
         position: relative;
         overflow: hidden;
@@ -127,6 +129,10 @@
     [class*="header-"]{
         color: #FFFFFF;
     }
+}
+
+.card-shadow {
+    @include shadow-2dp();
 }
 
 .card-raised{

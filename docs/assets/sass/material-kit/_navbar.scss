@@ -204,9 +204,10 @@
       }
     }
   }
-
   .navbar-form {
-    margin: 4px 0 0;
+    margin: auto; 
+    // margin: 4px 0 0;
+    // vertical-align: middle;
     .form-group {
       margin: 0;
       padding: 0;
@@ -235,6 +236,24 @@
       //---
     }
   }
+  .navbar-search-form .search {
+    background-color: rgba(0,0,0,0.2);
+    border: medium none;
+    border-radius: 4px;
+    box-shadow: 0 0 0;
+    color: #FFFFFF;
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    height: 50px;
+    line-height: 1.42857;
+    padding: 10px 12px;
+    vertical-align: middle;
+    width: 300px
+  }
+
+
+  
 
   // SASS conversion note: please mirror any content change in _mixins-shared.scss navbar-variations-content
   @include navbar-variations(unquote(".navbar"), unquote(""), $brand-primary);

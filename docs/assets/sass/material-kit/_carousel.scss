@@ -35,7 +35,9 @@
         }
         .active{
             margin-top: 10px;
-            @include transform-scale(1.5);
+            background-color: $brand-accent;
+            border-color: $brand-accent;
+            @include transform-scale(1.3);
             @include shadow-4dp();
         }
     }
@@ -48,6 +50,14 @@
             top: 5px;
         }
     }
+    .carousel-caption > h4 {
+        margin: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    	background-color: rgba(0,0,0,.4);
+    	// color: $brand-primary;
+  	}
+
     .carousel-caption a, .carousel-caption a:hover, .carousel-caption a:focus {
     	color: $brand-accent;
     	text-decoration: none;
@@ -59,6 +69,17 @@
   	.carousel-caption a {
     	color: $brand-primarylight4;
   	}
+  	
+}
 
+@media (max-width: 768px){
+	.carousel-caption > h4 { 
+        font-size: 1.0em;
+  	}
+  	.carousel-caption a.btn { 
+        padding: 5px 20px;
+        font-size: $mdb-btn-font-size-sm;
+  	}
 
+    
 }

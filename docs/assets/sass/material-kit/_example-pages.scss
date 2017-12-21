@@ -98,7 +98,7 @@ h2.title{
 
         h1{
             font-size: 4.8em;
-            font-weight: normal;
+            font-weight: $font-weight-bold;
         }
         h3{
             font-size: 1.5em;
@@ -113,10 +113,10 @@ h2.title{
         a.btn{
         	color: $white-color;
         	font-family: $font-weight-bold;
-        	background-color: transparent;
-        	border-color: #FFFFFF;
-			border-style: solid;
-			border-width: 1px;
+        	// background-color: transparent;
+        	// border-color: #FFFFFF;
+			// border-style: solid;
+			// border-width: 1px;
         	
         	&:hover{
 				// border-color: #C3FF0D;

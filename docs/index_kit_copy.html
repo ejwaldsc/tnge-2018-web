@@ -22,10 +22,35 @@
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<link href="assets/css/demo.css" rel="stylesheet" />
+	<style>
+		html, body { width:100%; height:100%; margin:0; padding:0; }
+		.vidContain {
+			width:100%; height: 100%;
+			position:relative;
+			display:inline-block;
+			margin:0px;
+		}
+		.vid {
+			position: absolute; 
+			top: 0; left:0;
+			width: 100%;
+			z-index: -1;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.vidContent {
+			position:absolute;
+			top:0; left:0;
+			background: transparent;
+			color:black;
+		}
+	</style>
 
 </head>
 
 <body class="index-page">
+
 <!-- Navbar -->
 <nav class="navbar navbar-white navbar-fixed-top">
 	
@@ -38,8 +63,8 @@
 				<span class="text-primary" aria-hidden="true"><i class="material-icons">clear</i></span>
 			</button>
 			<b>Announcement:</b> Tangoe LIVE 2018 early registration extended!&nbsp;&nbsp;
-			<a href="https://www.cvent.com/events/the-premier-telecom-management-event-of-the-year-/registration-e70fea35b8ba4df6ad6a5f2e27b8249d.aspx?fqp=true" class="btn btn-accent-darker btn-raised btn-outline btn-xs">
-				<span class="brand-regular text-info-dark" >Register Now</span>
+			<a href="https://www.cvent.com/events/the-premier-telecom-management-event-of-the-year-/registration-e70fea35b8ba4df6ad6a5f2e27b8249d.aspx?fqp=true" class="btn btn-accent btn-raised btn-xs">
+				<span class="brand-regular text-white" >Register Now</span>
 			</a>
 		</div>
 	</div>
@@ -55,60 +80,46 @@
 	    	<a href="https://ejwaldsc.github.io/tnge-2018-web/">
 	        	<div class="logo-container">
 	                <div class="logo">
-						<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" viewBox="0 95.5 288 86.507" enable-background="new 0 95.5 288 86.507" xml:space="preserve">
-							<g>
-								<g id="_x22_t_x22__26_">
-									<g>
-										<path fill="#161722" d="M30.383,118.4H40.94l2.54,8.742H30.383v20.52c0,4.289,2.475,6.598,6.235,6.598
-											c2.045,0,4.948-0.693,6.598-1.551l2.475,7.027c-2.738,1.881-7.192,3.068-11.217,3.068c-8.544,0-14.383-5.378-14.383-13.428
-											v-22.235h-6.73V118.4h7.126l1.154-12.371h8.775V118.4H30.383z"/>
-									</g>
+						<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" viewBox="0 95.374 288 97.063" enable-background="new 0 95.374 288 97.063" xml:space="preserve" >
+							<title>Asset 3</title>
+							<g id="Layer_2">
+								<g id="logo">
+									<path fill="#333333" d="M24.782,163.15c-10.326,0-15.395-5.82-15.395-15.771v-25.908H0v-10.138h9.387V98.378l12.204-3.004v15.958h12.954v10.138
+										H21.591v24.782c0,3.942,1.689,5.632,5.632,5.632c2.628,0,5.257-0.188,7.885-0.562v10.326
+										C31.729,162.587,28.35,163.15,24.782,163.15z"/>
+									<path fill="#333333" d="M82.607,163.15c-4.318,0.375-8.261-2.816-8.636-7.135c-2.44,4.131-8.261,7.697-15.583,7.697
+										c-12.204,0-18.399-7.697-18.399-15.958c0-9.763,7.51-15.395,17.272-15.958l15.02-1.126v-3.191c0-4.881-1.69-8.073-8.636-8.073
+										c-5.632,0-9.012,2.628-9.387,7.322H42.43c0.751-11.453,9.763-16.709,21.215-16.709c8.824,0,16.146,2.816,19.15,10.514
+										c1.126,3.379,1.689,6.759,1.502,10.326v18.962c0,2.44,0.751,3.191,2.816,3.191c0.563,0,1.126,0,1.502-0.188v9.012
+										C86.738,162.774,84.673,163.338,82.607,163.15z M72.094,139.682l-12.954,0.939c-3.755,0.375-7.322,2.628-7.322,6.571
+										c0.188,3.755,3.379,6.571,7.134,6.384h0.188c7.697,0,13.142-4.131,13.142-11.641L72.094,139.682z"/>
+									<path fill="#333333" d="M124.662,162.398v-31.353c0-6.008-1.877-9.575-8.448-9.575c-4.318,0-7.134,2.816-8.824,6.383
+										c-1.689,3.942-1.689,9.387-1.689,13.706v20.839H93.497v-51.066h10.326l0.938,6.571c3.004-5.444,9.2-7.885,15.02-7.885
+										c10.889,0,17.272,7.698,17.272,18.211v34.169H124.662z"/>
+									<path fill="#333333" d="M230.551,155.828c-9.012,9.95-24.22,10.701-33.982,1.689c-0.562-0.562-1.127-1.127-1.689-1.689
+										c-3.755-4.882-6.008-10.326-6.008-18.775c0-8.448,2.253-14.081,6.008-18.962c8.824-9.951,24.031-10.702,33.981-1.877
+										c0.563,0.563,1.314,1.126,1.878,1.877c3.754,4.881,6.008,10.138,6.008,18.962S234.305,150.946,230.551,155.828z M220.412,124.099
+										c-4.318-4.318-11.265-4.318-15.395,0l0,0c-3.004,3.191-3.568,8.073-3.568,12.954s0.752,9.576,3.568,12.955
+										c4.317,4.318,11.264,4.318,15.395,0l0,0c3.004-3.191,3.566-8.073,3.566-12.955S223.416,127.291,220.412,124.099L220.412,124.099z"
+										/>
+									<path fill="#333333" d="M288,140.621h-34.17c-0.188,3.755,1.127,7.322,3.756,9.951c2.064,2.065,4.693,3.191,7.51,3.191
+										c3.566,0,5.632-0.751,7.51-2.44c1.126-1.127,2.064-2.629,2.439-4.318h11.828c-0.562,3.379-2.064,6.759-4.317,9.387
+										c-4.318,4.882-10.702,7.51-17.085,7.135c-6.008,0.188-11.828-2.064-16.146-6.195c-5.256-5.445-8.072-12.767-7.885-20.464
+										c0-8.261,2.44-15.395,7.322-20.464c4.318-4.318,10.138-6.759,16.334-6.383c7.51-0.375,14.455,3.192,18.586,9.387
+										c3.755,5.632,4.506,13.142,4.506,17.836C288,138.743,288,140.058,288,140.621z M272.605,122.785
+										c-2.066-2.065-4.882-3.191-7.886-3.004c-3.38-0.188-6.571,1.314-8.636,3.943c-1.69,2.253-2.629,5.069-2.629,7.885h22.154
+										C275.797,128.605,274.67,125.413,272.605,122.785z"/>
+									<path fill="#333333" d="M156.391,163.15c2.066,0.188,6.947,0,9.2,0c4.693,0,12.203,0,12.203,6.195c0,1.314-0.376,2.44-1.126,3.379h12.203
+										c0.188-1.314,0.375-2.44,0.375-3.754c0.188-4.882-2.064-9.576-6.195-12.204c-4.693-3.191-11.452-3.191-16.521-3.191h-8.448
+										c-2.628,0-5.632-0.751-5.632-3.755c0.188-1.502,1.126-3.004,2.628-3.755c2.628,0.938,5.444,1.313,8.261,1.313
+										c11.076,0,20.84-6.946,20.84-18.586c0-3.191-0.939-6.383-2.629-9.012c0.751-2.44,3.379-3.191,6.195-3.191c0.376,0,0.752,0,0.939,0
+										v-9.575c-1.127-0.188-2.254-0.188-3.38-0.188c-4.506-0.188-8.448,2.44-10.514,6.383c-3.567-2.065-7.51-3.192-11.64-3.192
+										c-11.453,0-21.028,6.571-21.028,18.774c0,4.694,1.69,9.2,5.069,12.579c-3.755,2.065-6.008,6.007-6.008,10.326
+										c0,3.567,1.878,6.947,5.069,8.824C149.445,162.211,152.824,163.15,156.391,163.15z M163.338,119.405
+										c5.633,0,9.012,3.943,9.012,9.575s-3.379,9.387-9.012,9.387s-9.012-3.943-9.012-9.387
+										C154.326,123.536,157.705,119.405,163.338,119.405z"/>
+									<rect x="141.372" y="182.676" fill="#5B87D9" width="47.875" height="9.762"/>
 								</g>
-								<g id="_x22_a_x22__26_">
-									<g>
-										<path fill="#161722" d="M87.192,136.445v25.402H76.833v-6.664c-2.837,4.619-9.171,7.621-14.978,7.621
-											c-9.93,0-16.594-5.576-16.594-13.955c0-8.116,7.027-13.526,17.617-13.526c4.619,0,9.897,1.155,13.955,2.804v-2.21
-											c0-6.169-4.289-10.26-11.216-10.26c-4.454,0-10.194,1.782-13.691,4.289l-2.54-7.719c3.859-3.266,10.589-4.784,17.518-4.784
-											C79.34,117.443,87.192,125.064,87.192,136.445z M55.786,148.619c0,3.926,3.695,6.498,9.237,6.498
-											c4.454,0,9.336-2.474,11.976-6.334v-4.981c-3.53-1.452-7.885-2.111-11.811-2.111C59.546,141.658,55.786,144.396,55.786,148.619z"
-											/>
-									</g>
-								</g>
-								<g id="_x22_n_x22__26_">
-									<g>
-										<path fill="#161722" d="M130.936,136.874v24.974h-10.425V137.27c0-6.862-3.596-11.282-8.973-11.282
-											c-6.664,0-11.118,5.377-11.216,13.592v22.235H89.963V118.4h9.633l0.726,7.786c2.21-5.212,7.884-8.742,14.12-8.742
-											C124.371,117.443,130.936,125.229,130.936,136.874z"/>
-									</g>
-								</g>
-								<g id="_x22_g_x22__26_">
-									<g>
-										<path fill="#161722" d="M169.534,125.855l0.726-7.456h9.534v41.073c0,13.525-9.402,22.498-23.62,22.498
-											c-7.027,0-14.813-2.408-19.597-5.904l3.926-7.357c4.024,3.002,10.095,4.949,14.978,4.949c8.479,0,14.119-5.74,14.219-14.285
-											v-4.948c-3.002,5.048-9.237,8.38-15.67,8.38c-12.569,0-21.048-9.072-21.048-22.665c0-13.592,8.479-22.664,21.048-22.664
-											C160.396,117.443,166.631,120.808,169.534,125.855z M143.274,140.14c0,8.544,5.146,14.285,12.932,14.285
-											c8.116,0,13.526-5.74,13.526-14.285s-5.378-14.285-13.526-14.285C148.42,125.855,143.274,131.563,143.274,140.14z"/>
-									</g>
-								</g>
-								<g id="_x22_e_x22__26_">
-									<g>
-										<path fill="#161722" d="M274.969,138.26c0,1.353-0.099,3.002-0.264,3.761h-33.451c0.264,7.62,5.74,12.404,14.383,12.404
-											c4.189,0,8.974-1.188,11.48-2.837l4.025,6.598c-4.124,2.738-10.029,4.619-16.264,4.619c-14.385,0-23.621-9.072-23.621-22.862
-											c0-13.361,8.973-22.499,22.434-22.499C266.425,117.443,274.969,125.658,274.969,138.26z M241.418,135.951h23.786
-											c-0.264-6.433-5.048-10.623-11.546-10.623C247.06,125.328,242.441,129.617,241.418,135.951z"/>
-									</g>
-								</g>
-								<g id="_x22_o_x22__25_">
-									<path fill="#161722" d="M206.812,117.477l2.111,4.321l-2.145,4.289c7.061,0.66,12.404,6.631,12.404,14.153
-										c0,7.884-6.004,14.021-13.691,14.021c-7.686,0-13.689-6.169-13.689-14.021c0-7.192,4.882-12.965,11.479-14.021l2.21-4.388
-										l-2.078-4.256c-12.47,0.957-21.542,10.425-21.542,22.598c0,12.998,10.095,22.664,23.62,22.664
-										c13.428,0,23.721-9.765,23.721-22.664C229.18,127.703,219.58,118.103,206.812,117.477z"/>
-								</g>
-							</g>
-							<g id="accent">
-								<path id="_x3C__Path__x3E_" fill="#C3FF0D" d="M203.447,117.575l2.078,4.256l-2.21,4.388c0.726-0.099,1.452-0.165,2.21-0.165
-									c0.43,0,0.857,0.033,1.287,0.066l2.145-4.289l-2.111-4.322c-0.43-0.033-0.857-0.033-1.287-0.033
-									C204.866,117.477,204.141,117.509,203.447,117.575z"/>
 							</g>
 						</svg>
 	                </div>
@@ -120,72 +131,73 @@
 	    	
 	    	<ul class="nav navbar-nav navbar-right">
         		<li class="dropdown">
-        			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons">apps</i> Solutions <b class="caret"></b></a>
+        			<a href="#" class="dropdown-toggle brand-light" data-toggle="dropdown">Products</a>
         			<ul class="dropdown-menu">
-					  <li><a class="title">BY CHALLENGE</a></li>
-					  <li><a href="#">&nbsp;&nbsp;Expense Management</a></li>
-					  <li><a href="#">&nbsp;&nbsp;Asset Management</a></li>
-					  <li><a href="#">&nbsp;&nbsp;Compliance and Security</a></li>
+					  <li><a href="#" class="title">Tangoe Atlas&copy;</a></li>
 					  <li class="divider"></li>
-					  <li><a class="title">BY TECHNOLOGY</a></li>
-					  <li><a href="#">&nbsp;&nbsp;Telecom</a></li>
-					  <li><a href="#">&nbsp;&nbsp;Mobility</a></li>
+					  <li><a href="#" class="title">Tangoe Rivermine&copy;</a></li>
 					  <li class="divider"></li>
-					  <li><a class="title">BY ROLE</a></li>
-					  <li><a href="#">&nbsp;&nbsp;IT</a></li>
-					  <li><a href="#">&nbsp;&nbsp;Finance</a></li>
-					  <li class="divider"></li>
-					  <li><a class="title">BY DELIVERY MODEL</a></li>
-					  <li><a href="#">&nbsp;&nbsp;Hosted Only</a></li>
-					  <li><a href="#">&nbsp;&nbsp;Managed</a></li>
+					  <li><a href="#" class="title">Tangoe Asentinel&copy;</a></li>
+					  <li><a href="#">&nbsp;&nbsp;TEM</a></li>
+					  <li><a href="#">&nbsp;&nbsp;MMS</a></li>
         			</ul>
         		</li>
 				<li class="dropdown">
-        			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons">group</i> Company <b class="caret"></b></a>
+        			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Solutions</a>
+        			<ul class="dropdown-menu">
+					  <li><span class="title">&nbsp;&nbsp;BY CHALLENGE</span></li>
+					  <li><a href="#">Expense Management</a></li>
+					  <li><a href="#">Asset Management</a></li>
+					  <li><a href="#">Usage Management</a></li>
+					  <li class="divider"></li>
+					  <li><span class="title">&nbsp;&nbsp;BY TECHNOLOGY</span></li>
+					  <li><a href="#">Telecom</a></li>
+					  <li><a href="#">Mobility</a></li>
+					  <li class="divider"></li>
+					  <li><span class="title">&nbsp;&nbsp;BY ROLE</span></li>
+					  <li><a href="#">IT</a></li>
+					  <li><a href="#">Finance</a></li>
+        			</ul>
+        		</li>
+				<li class="dropdown">
+        			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Learning</a>
+        			<ul class="dropdown-menu">
+					  <li><a href="#">TEM Center of Excellence</a></li>
+					  <li><a href="#">Tangoe LIVE</a></li>
+					  <li><a href="#">Resource Library</a></li>
+					  <li><a href="#">Blog</a></li>
+					  <li><a href="#">Communities</a></li>
+					  <li><a href="#">News</a></li>
+					  <li><a href="#">Events</a></li>
+        			</ul>
+        		</li>
+        		<li class="dropdown">
+        			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
+        			<ul class="dropdown-menu">
+					  <li><a href="#">Sourcing</a></li>
+					  <li><a href="#">Benchmarking</a></li>
+					  <li><a href="#">Managed Services</a></li>
+        			</ul>
+        		</li>
+        		<li class="dropdown">
+        			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Company</a>
         			<ul class="dropdown-menu">
 					  <li><a href="#">People</a></li>
 					  <li><a href="#">Values</a></li>
 					  <li><a href="#">Careers</a></li>
-					  <li><a href="#">Partners</a></li>
-        			</ul>
-        		</li>
-        		<li class="dropdown">
-        			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons">view_carousel</i> Resources <b class="caret"></b></a>
-        			<ul class="dropdown-menu">
-					  <li><a href="#">TEM Center of Excellence</a></li>
-					  <li><a href="#">Library</a></li>
-					  <li><a href="#">Blog</a></li>
-        			</ul>
-        		</li>
-        		<li>&nbsp;</li>
-        		<li class="dropdown">
-        			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons">more_vert</i> </a>
-        			<ul class="dropdown-menu">
-					  <li><a href="#">News</a></li>
-					  <li><a href="#">Events</a></li>
-					  <li><a href="#">Tangoe LIVE</a></li>
-					  <li><a href="#">Communities</a></li>
 					  <li><a href="#">Awards and Patents</a></li>
-					  <li><a href="#">Patents</a></li>
 					  <li><a href="#">Locations</a></li>
         			</ul>
         		</li>
         		<li>&nbsp;</li>
         		<li class="dropdown">
-					<a rel="tooltip" title="Login" data-placement="bottom" href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<i class="material-icons">person_outline</i> 
-					</a>
-				</li>
-        		<li class="dropdown">
-					<a rel="tooltip" title="Contact Us" data-placement="bottom" href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<i class="material-icons">phone_android</i>
-					</a>
-				</li>
-        		<li class="dropdown">
-					<a rel="tooltip" title="Search" data-placement="bottom" href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<i class="material-icons">search</i>
-					</a>
-				</li>	
+        			<a rel="tooltip" title="Quick Links" data-placement="left" class="dropdown-toggle" data-toggle="dropdown"><i class="material-icons">more_vert</i> </a>
+        			<ul class="dropdown-menu">
+					  <li><a href="#"><i class="material-icons">person_outline</i> Login</a></li>
+					  <li><a href="#"><i class="material-icons">phone_android</i> Contact Us</a></li>
+					  <li><a href="#"><i class="material-icons">search</i> Search</a></li>
+        			</ul>
+        		</li>	
 	    	</ul> 
 	    	
 	    	<!-- -->
@@ -379,6 +391,7 @@
 <!-- End Navbar -->
 
 <div class="wrapper">
+	<!-- 
 	<div class="header " style="background-image: url('assets/img/bg6.jpg');">
 		<div class="container">
 			<div class="row">
@@ -389,6 +402,26 @@
 				</div>
 			</div>
 
+		</div>
+	</div>
+	-->
+	<div class='header vidContain'>
+		<div class='container vid'>
+			<video controls="" preload="none" autoplay="true" loop="true" poster="assets/img/bg6.jpg" style="width:100%; height:100%">
+				<source id="mp4" src="675076297.mp4" type="video/mp4"/>
+				<!-- 
+				<source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm"/>
+				<source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg"/>
+				-->
+				<p>Your user agent does not support the HTML5 Video element.</p>
+			</video>
+			<div class="row vidContent">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="brand">
+						<h1>Alternate Navigation Bar Style</h1>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 

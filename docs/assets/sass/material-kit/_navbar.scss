@@ -36,7 +36,7 @@
       padding-top: 15px;
       padding-bottom: 15px;
 
-      font-family: $font-weight-default;
+      font-weight: $font-weight-default;
       // font-size: $mdb-btn-font-size-lg;
       font-size: ceil(($mdb-btn-font-size-lg * 1.1)); // make font 10% bigger
       text-transform: none;
@@ -287,7 +287,7 @@
   &.navbar-white{
       background-color: $white-color;
       color: $brand-primary;
-	  border-bottom-color: $brand-primarylight1;
+	  border-bottom-color: $brand-primary;
 	  border-bottom-style: solid;
 	  border-bottom-width: 1px;
 	  font-family: $font-weight-default;

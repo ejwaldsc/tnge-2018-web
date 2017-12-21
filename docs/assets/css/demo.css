@@ -313,13 +313,13 @@
 }
 
 .navbar.navbar-primary.navbar-fixed-top.navbar-color-on-scroll{
-    border-bottom-color: #C3FF0D;
+    border-bottom-color: #5B87D9;
     border-bottom-style: solid;
     border-bottom-width: 1px;
 }
 .navbar.navbar-primary.navbar-fixed-top.navbar-color-on-scroll ul.dropdown-menu a:hover {
-    background-color: #C3FF0D;
-    color: #161722;  
+    background-color: #5B87D9;
+    color: #FFFFFF;  
 }
 .navbar.navbar-primary.navbar-fixed-top.navbar-color-on-scroll.navbar-transparent{
     border-color: transparent;

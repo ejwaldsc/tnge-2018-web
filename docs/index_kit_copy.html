@@ -23,7 +23,7 @@
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<link href="assets/css/demo.css" rel="stylesheet" />
 	<style>
-		html, body { width:100%; height:100%; margin:0; padding:0; }
+		
 		.vidContain {
 			width:100%; height: 100%;
 			position:relative;
@@ -31,13 +31,20 @@
 			margin:0px;
 		}
 		.vid {
-			position: absolute; 
-			top: 0; left:0;
-			width: 100%;
-			z-index: -1;
-			margin: 0px;
-			padding: 0px;
-		}
+			-webkit-transform: translateX(-50%) translateY(-50%);
+			-moz-transform: translateX(-50%) translateY(-50%);
+			-ms-transform: translateX(-50%) translateY(-50%);
+			-o-transform: translateX(-50%) translateY(-50%);
+			transform: translateX(-50%) translateY(-50%);
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			min-width: 100%;
+			min-height: 100%;
+			width: auto;
+			height: auto;
+			z-index: -100;
+			}
 
 		.vidContent {
 			position:absolute;
@@ -406,8 +413,8 @@
 	</div>
 	-->
 	<div class='header vidContain'>
-		<div class='container vid'>
-			<video controls="" preload="none" autoplay="true" loop="true" poster="assets/img/bg6.jpg" style="width:100%; height:100%">
+		<div class='container'>
+			<video controls="" class="vid" preload="none" autoplay="true" loop="true" poster="assets/img/bg6.jpg">
 				<source id="mp4" src="675076297.mp4" type="video/mp4"/>
 				<!-- 
 				<source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm"/>
@@ -415,10 +422,15 @@
 				-->
 				<p>Your user agent does not support the HTML5 Video element.</p>
 			</video>
-			<div class="row vidContent">
-				<div class="col-md-8 col-md-offset-3">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
 					<div class="brand">
-						<h1>Alternate Homepage Background Style</h1>
+						<h1 class="brand-book"><span class="text-white">Get more from your technology.</span></h1>
+						<h4 class="brand-light"><br />Tangoe's Telecom Expense Management and MMS solutions reduce IT costs, increase productivity, and improve data security.</h4> 
+						<br />
+	                    <a href="#" class="btn btn-accent btn-raised">
+							<span class="text-white">Learn HOW</span>
+						</a>
 					</div>
 				</div>
 			</div>

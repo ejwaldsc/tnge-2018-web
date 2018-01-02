@@ -35,7 +35,7 @@ body {
   background: #FFFFFF; }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5em; }
 
 a, a:hover, a:focus {
@@ -84,7 +84,7 @@ a, a:hover, a:focus {
   padding: 12px 30px;
   margin: 10px 1px;
   font-size: 12px;
-  font-family: "proxima_nova_ltthin";
+  font-family: 200;
   text-transform: uppercase;
   letter-spacing: 0;
   will-change: box-shadow, transform;
@@ -2091,13 +2091,13 @@ label {
   font-size: 14px;
   line-height: 1.428571429;
   color: #AAAAAA;
-  font-family: "Proxima Nova"; }
+  font-family: 300; }
 
 label.control-label {
   font-size: 11px;
   line-height: 1.0714285718;
   color: #AAAAAA;
-  font-family: "Proxima Nova";
+  font-family: 300;
   margin: 16px 0 0 0; }
 
 .help-block {
@@ -2130,12 +2130,12 @@ label.control-label {
     font-size: 14px;
     line-height: 1.428571429;
     color: #AAAAAA;
-    font-family: "Proxima Nova"; }
+    font-family: 300; }
   .form-group label.control-label {
     font-size: 11px;
     line-height: 1.0714285718;
     color: #AAAAAA;
-    font-family: "Proxima Nova";
+    font-family: 300;
     margin: 16px 0 0 0; }
   .form-group .help-block {
     margin-top: 0;
@@ -2181,12 +2181,12 @@ label.control-label {
     font-size: 11px;
     line-height: 1.5;
     color: #AAAAAA;
-    font-family: "Proxima Nova"; }
+    font-family: 300; }
   .form-group.form-group-sm label.control-label {
     font-size: 9px;
     line-height: 1.125;
     color: #AAAAAA;
-    font-family: "Proxima Nova";
+    font-family: 300;
     margin: 16px 0 0 0; }
   .form-group.form-group-sm .help-block {
     margin-top: 0;
@@ -2232,12 +2232,12 @@ label.control-label {
     font-size: 18px;
     line-height: 1.3333333;
     color: #AAAAAA;
-    font-family: "Proxima Nova"; }
+    font-family: 300; }
   .form-group.form-group-lg label.control-label {
     font-size: 14px;
     line-height: 0.999999975;
     color: #AAAAAA;
-    font-family: "Proxima Nova";
+    font-family: 300;
     margin: 16px 0 0 0; }
   .form-group.form-group-lg .help-block {
     margin-top: 0;
@@ -2313,7 +2313,7 @@ select.form-control {
   height: 30px;
   line-height: 30px;
   color: #999999;
-  font-family: "Proxima Nova";
+  font-family: 300;
   font-size: 12px;
   text-transform: uppercase;
   background: transparent; }
@@ -2373,7 +2373,7 @@ select.form-control {
   line-height: 24px;
   text-transform: uppercase;
   font-size: 12px;
-  font-family: "Proxima Nova";
+  font-family: 300;
   min-width: 100px;
   text-align: center;
   color: #555555;
@@ -2445,7 +2445,7 @@ footer {
       footer ul li a {
         color: inherit;
         padding: 15px;
-        font-family: "Proxima Nova";
+        font-family: 300;
         font-size: 12px;
         text-transform: uppercase;
         border-radius: 3px;
@@ -2488,7 +2488,7 @@ legend {
     color: inherit;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-weight: "Proxima Nova";
+    font-weight: 300;
     font-size: 14px;
     text-transform: none;
     border-radius: 3px; }
@@ -2911,7 +2911,7 @@ legend {
     border-bottom-color: #333333;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    font-family: "Proxima Nova"; }
+    font-family: 300; }
     .navbar.navbar-white .logo {
       padding-top: 5px; }
   @media (max-width: 1199px) {
@@ -3038,7 +3038,7 @@ legend {
   padding: 20px 15px;
   line-height: 20px; }
   .alert b {
-    font-family: "Proxima Nova";
+    font-family: 300;
     text-transform: uppercase;
     font-size: 12px; }
   .alert, .alert.alert-default {
@@ -3223,7 +3223,7 @@ h6, .h6 {
 .footer-big h5,
 .footer-big h4,
 .media .media-heading {
-  font-family: "proxima_nova_altbold"; }
+  font-family: 500; }
   .title,
   .title a,
   .card-title,
@@ -3242,25 +3242,25 @@ h6, .h6 {
     text-decoration: none; }
 
 .brand-light {
-  font-family: "proxima_nova_ltthin";
+  font-family: 200;
   letter-spacing: -.02em;
   line-height: 1.4em; }
 
 .brand-book {
-  font-family: "Proxima Nova";
+  font-family: 300;
   letter-spacing: -.02em;
   line-height: 1.05em; }
 
 .brand-regular {
-  font-family: "Proxima Nova";
+  font-family: 300;
   letter-spacing: -.02em;
   line-height: 1.05em; }
 
 .brand-medium {
-  font-family: "proxima_nova_altbold"; }
+  font-family: 500; }
 
 .brand-bold {
-  font-family: "proxima_nova_altblack"; }
+  font-family: 700; }
 
 h2.title {
   margin-bottom: 30px; }
@@ -3341,7 +3341,7 @@ h2.title {
     background-color: transparent;
     border: 0 !important;
     color: #FFFFFF !important;
-    font-family: "Proxima Nova"; }
+    font-family: 300; }
   .nav-tabs > li.disabled > a, .nav-tabs > li.disabled > a:hover {
     color: rgba(255, 255, 255, 0.5); }
   .nav-tabs > li .material-icons {
@@ -3927,7 +3927,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     text-align: center; }
     .datepicker td p {
       font-size: 1em;
-      font-weight: "Proxima Nova";
+      font-weight: 300;
       border-radius: 50%;
       height: 29px;
       line-height: 29px;
@@ -3936,7 +3936,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     .datepicker td :hover {
       cursor: pointer; }
   .datepicker th {
-    font-weight: "Proxima Nova"; }
+    font-weight: 300; }
     .datepicker th.switch-datepicker {
       font-size: 1em; }
   .datepicker .prev p,
@@ -4097,7 +4097,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); }
 
 .title {
-  font-family: "Proxima Nova";
+  font-family: 300;
   color: #161722; }
 
 h2.title {
@@ -4155,7 +4155,7 @@ h2.title {
   text-align: center; }
   .index-page .brand h1 {
     font-size: 4.8em;
-    font-weight: "Proxima Nova"; }
+    font-weight: 300; }
   .index-page .brand h3 {
     font-size: 1.5em;
     text-transform: none;
@@ -4166,7 +4166,7 @@ h2.title {
     margin: 10px auto 0; }
   .index-page .brand a.btn {
     color: #FFFFFF;
-    font-family: "Proxima Nova"; }
+    font-family: 300; }
 .index-page .section-basic {
   padding-top: 15px; }
 .index-page .header-filter:after {
@@ -4188,7 +4188,7 @@ h2.title {
   .landing-page .header .share {
     margin-top: 150px; }
   .landing-page .header h1 {
-    font-family: "Proxima Nova"; }
+    font-family: 300; }
   .landing-page .header .title {
     color: #FFFFFF; }
 .landing-page .wrapper {

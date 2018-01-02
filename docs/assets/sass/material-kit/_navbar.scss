@@ -38,7 +38,7 @@
 
       font-weight: $font-weight-default;
       // font-size: $mdb-btn-font-size-lg;
-      font-size: ceil(($mdb-btn-font-size-lg * 1.1)); // make font 10% bigger
+      font-size: ceil(($mdb-btn-font-size-lg * 1.0)); // make font 10% smaller
       text-transform: none;
 
       border-radius: $border-radius-base;
@@ -46,6 +46,7 @@
       &:hover,
       &:focus {
         color: inherit;
+        color: $brand-accent;
         background-color: transparent;
       }
 

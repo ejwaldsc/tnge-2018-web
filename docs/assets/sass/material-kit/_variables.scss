@@ -3,7 +3,8 @@
 @import '_colors';
 
 // Typography elements
-$mdb-font-family: 'Fira Sans', sans-serif !default;
+$mdb-font-family: 'Proxima Nova', sans-serif !default;
+//$mdb-font-family: 'Fira Sans', sans-serif !default;
 $mdb-text-color-light:  $white !default;
 $mdb-text-color-light-hex: $white !default; // for contrast function in inverse
 $mdb-text-color-primary: unquote("rgba(#{$rgb-black}, 0.87)") !default;
@@ -24,21 +25,21 @@ $white-color: #FFFFFF !default;
 $gray-color:  #999999 !default;
 
 $brand-primary: #333333 !default;
-$brand-primarylight1: #342E37 !default;
-$brand-primarylight2: #757780 !default;
-$brand-primarylight3: #E1E2E2 !default;
-$brand-primarylight4: #F5F5F6 !default;
+$brand-primarylight1: #535353 !default;
+$brand-primarylight2: #939393 !default;
+$brand-primarylight3: #BEBEBE !default;
+$brand-primarylight4: #E9E9E9 !default;
 $brand-accent: #5B87DA !default;
-$brand-accent-darker: #ACE309 !default;
-$brand-success: #7FE048 !default;
-$brand-danger: #CC3333 !default;
-$brand-caution: #F9CB40 !default;
-$brand-warning: #FA7E4C !default;
-$brand-info: #469BC3 !default;
-$brand-info-light: #6CCFF6 !default;
-$brand-info-dark: #074B70 !default;
-$brand-info-darker: #2B2C48 !default;
-$brand-note: #EBECAF !default;
+$brand-accent-darker: #2E446D !default;
+$brand-success: #00AA5E !default;
+$brand-danger: #B3001B !default;
+$brand-caution: #FED500 !default;
+$brand-warning: #FE8500 !default;
+$brand-info: #BEBEBE !default;
+$brand-info-light: #E9E9E9 !default;
+$brand-info-dark: #939393 !default;
+$brand-info-darker: #535353 !default;
+$brand-note: #FFF7CC !default;
 $brand-rose: $pink !default;
 
 $border-radius-base: 3px !default;
@@ -47,15 +48,16 @@ $border-radius-huge: 10px !default;
 $border-radius-extreme: 30px !default;
 
 // Typography
-$font-family-sans-serif: 'Fira Sans', sans-serif !default;
-$headings-font-weight: 200 !default;
+//$font-family-sans-serif: 'Fira Sans', sans-serif !default;
+$font-family-sans-serif: 'Proxima Nova', sans-serif !default;
+$headings-font-weight: 'Proxima Nova' !default;
 
-$font-weight-light: 100 !default;
-$font-weight-default: 200 !default;
-$font-weight-bold:    300 !default;
-$font-weight-bolder:    400 !default;
-$font-weight-extra-bold: 500 !default;
-$font-weight-ultra-bold: 700 !default;
+$font-weight-light: 'proxima_nova_ltthin' !default;
+$font-weight-default: 'Proxima Nova' !default;
+$font-weight-bold:    'Proxima Nova' !default;
+$font-weight-bolder:    'proxima_nova_ltsemibold' !default;
+$font-weight-extra-bold: 'proxima_nova_altbold' !default;
+$font-weight-ultra-bold: 'proxima_nova_altblack' !default;
 //$font-family-sans-serif: 'ChronicaPro-Book', 'Helvetica', 'Arial', sans-serif !default;
 //$headings-font-weight: normal !default;
 

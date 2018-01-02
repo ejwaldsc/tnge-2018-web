@@ -17,11 +17,11 @@
         &:hover,
         &:focus {
           @include shadow-8dp();
-          background-color: #C3FF0D;
+          background-color: $brand-accent;
 			&.menu-heading{
 			  &:hover,
 			  &:focus {
-			     background-color: transparent;
+			     background-color: $brand-accent;
 			  }
 			}
 	    }
@@ -32,7 +32,7 @@
         a:hover,
         a:focus,
         a:active {
-            background-color: $brand-primary;
+            background-color: $brand-accent;
             color: #FFFFFF;
         }
     }

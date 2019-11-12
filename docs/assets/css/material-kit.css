@@ -4169,7 +4169,7 @@ h2.title {
     font-family: 300; }
 .index-page .section-basic {
   padding-top: 15px;
-  padding-bottom: 30px; }
+  padding-bottom: 15px; }
 .index-page .header-filter:after {
   background: rgba(40, 47, 68, 0.64);
   background: linear-gradient(45deg, rgba(40, 47, 68, 0.88) 0%, rgba(19, 64, 116, 0.45) 100%);
